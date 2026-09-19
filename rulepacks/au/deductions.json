@@ -1,7 +1,11 @@
 {
   "jurisdiction": "AU",
   "schema_version": 1,
-  "verification": { "status": "unverified", "reviewer": null, "reviewed_at": null },
+  "verification": {
+    "status": "unverified",
+    "reviewer": null,
+    "reviewed_at": null
+  },
   "general_test": {
     "cite": "ITAA 1997 s 8-1",
     "positive_limbs": [
@@ -16,7 +20,6 @@
     ],
     "apportionment_rule": "Where an expense serves both an income-producing and a private purpose it must be apportioned on a fair and reasonable basis. Claiming 100% of a mixed-purpose expense is the single most common audit trigger."
   },
-
   "categories": [
     {
       "code": "AU-D1-CAR",
@@ -25,8 +28,15 @@
       "cite": "ITAA 1997 Div 28; s 25-100",
       "source_url": "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/deductions-you-can-claim/cars-transport-and-travel",
       "methods": [
-        { "id": "cents_per_km", "cap_km": 5000, "evidence": "reasonable basis for the kilometre estimate (diary, roster, client list)" },
-        { "id": "logbook", "evidence": "12-week continuous logbook valid for 5 years + odometer readings + all running cost receipts" }
+        {
+          "id": "cents_per_km",
+          "cap_km": 5000,
+          "evidence": "reasonable basis for the kilometre estimate (diary, roster, client list)"
+        },
+        {
+          "id": "logbook",
+          "evidence": "12-week continuous logbook valid for 5 years + odometer readings + all running cost receipts"
+        }
       ],
       "deductible_when": [
         "Travel between two separate workplaces or employers",
@@ -39,7 +49,23 @@
         "Travel where the employer provides a car or reimburses on a cents-per-km basis",
         "Travel made private by a detour (school drop-off, shopping) - apportion it out"
       ],
-      "keywords": ["fuel", "petrol", "diesel", "servicing", "rego", "registration", "tyres", "car insurance", "roadside", "nrma", "racv", "racq", "toll", "linkt", "e-toll"],
+      "keywords": [
+        "fuel",
+        "petrol",
+        "diesel",
+        "servicing",
+        "rego",
+        "registration",
+        "tyres",
+        "car insurance",
+        "roadside",
+        "nrma",
+        "racv",
+        "racq",
+        "toll",
+        "linkt",
+        "e-toll"
+      ],
       "risk": "high",
       "risk_note": "The ATO data-matches registration and toll records. A claim at exactly 5,000 km with no supporting basis is a standard review flag."
     },
@@ -58,7 +84,21 @@
         "The private portion of a trip that mixes work and holiday - apportion strictly"
       ],
       "substantiation": "Written evidence for all costs; a travel diary is required for trips of 6 or more consecutive nights away from home.",
-      "keywords": ["flight", "qantas", "virgin", "jetstar", "hotel", "motel", "airbnb", "accommodation", "taxi", "uber", "didi", "parking", "airport"],
+      "keywords": [
+        "flight",
+        "qantas",
+        "virgin",
+        "jetstar",
+        "hotel",
+        "motel",
+        "airbnb",
+        "accommodation",
+        "taxi",
+        "uber",
+        "didi",
+        "parking",
+        "airport"
+      ],
       "risk": "high"
     },
     {
@@ -77,7 +117,18 @@
         "Everyday footwear, even where the employer specifies a colour",
         "Gym wear for fitness instructors unless it carries a compulsory logo"
       ],
-      "keywords": ["uniform", "workwear", "hi-vis", "steel cap", "boots", "scrubs", "dry cleaning", "laundry", "sunscreen", "safety glasses"],
+      "keywords": [
+        "uniform",
+        "workwear",
+        "hi-vis",
+        "steel cap",
+        "boots",
+        "scrubs",
+        "dry cleaning",
+        "laundry",
+        "sunscreen",
+        "safety glasses"
+      ],
       "risk": "medium",
       "risk_note": "Laundry claims under $150 need no receipts but still need a reasonable basis. This is the most commonly over-claimed label."
     },
@@ -95,8 +146,27 @@
         "HELP/HECS-HELP loan repayments (s 26-20 expressly denies these)",
         "Courses undertaken while not employed in the relevant field"
       ],
-      "deductible_items": ["course fees (not HELP)", "textbooks", "stationery", "student union fees", "travel to and from the place of education", "depreciation on a computer used for study"],
-      "keywords": ["course", "tuition", "textbook", "seminar", "conference", "webinar", "certification", "cpd", "training", "udemy", "coursera"],
+      "deductible_items": [
+        "course fees (not HELP)",
+        "textbooks",
+        "stationery",
+        "student union fees",
+        "travel to and from the place of education",
+        "depreciation on a computer used for study"
+      ],
+      "keywords": [
+        "course",
+        "tuition",
+        "textbook",
+        "seminar",
+        "conference",
+        "webinar",
+        "certification",
+        "cpd",
+        "training",
+        "udemy",
+        "coursera"
+      ],
       "risk": "medium"
     },
     {
@@ -109,8 +179,15 @@
           "id": "home_office",
           "name": "Working from home",
           "methods": [
-            { "id": "fixed_rate", "rate_per_hour": 0.70, "record": "total actual hours worked from home for the full year - contemporaneous record required" },
-            { "id": "actual_cost", "record": "receipts plus a reasonable basis for the work-related percentage of each cost" }
+            {
+              "id": "fixed_rate",
+              "rate_per_hour": 0.7,
+              "record": "total actual hours worked from home for the full year - contemporaneous record required"
+            },
+            {
+              "id": "actual_cost",
+              "record": "receipts plus a reasonable basis for the work-related percentage of each cost"
+            }
           ],
           "never_deductible": [
             "Rent, mortgage interest, rates or home insurance for an employee - occupancy costs require a dedicated place of business and can cost you the main residence CGT exemption",
@@ -119,13 +196,68 @@
           ],
           "cgt_warning": "Claiming occupancy costs can partially forfeit the main residence CGT exemption under s 118-190. Flag to an adviser before doing this."
         },
-        { "id": "tools_equipment", "name": "Tools and equipment", "rule": "Immediate deduction if cost is $300 or less and the item is not part of a set; otherwise depreciate under Div 40.", "immediate_threshold": 300 },
-        { "id": "phone_internet", "name": "Phone and internet", "rule": "Work-use percentage only, established by a representative 4-week record. Cannot be claimed separately if using the fixed-rate WFH method." },
-        { "id": "union_fees", "name": "Union fees and professional association subscriptions", "rule": "Fully deductible where membership relates to current employment." },
-        { "id": "income_protection", "name": "Income protection insurance", "rule": "Deductible only for the portion covering loss of INCOME. Premiums for life, trauma or TPD cover are not deductible, nor are policies held inside super." },
-        { "id": "subscriptions", "name": "Professional journals and industry subscriptions", "rule": "Deductible where directly connected to earning income." }
+        {
+          "id": "tools_equipment",
+          "name": "Tools and equipment",
+          "rule": "Immediate deduction if cost is $300 or less and the item is not part of a set; otherwise depreciate under Div 40.",
+          "immediate_threshold": 300
+        },
+        {
+          "id": "phone_internet",
+          "name": "Phone and internet",
+          "rule": "Work-use percentage only, established by a representative 4-week record. Cannot be claimed separately if using the fixed-rate WFH method."
+        },
+        {
+          "id": "union_fees",
+          "name": "Union fees and professional association subscriptions",
+          "rule": "Fully deductible where membership relates to current employment."
+        },
+        {
+          "id": "income_protection",
+          "name": "Income protection insurance",
+          "rule": "Deductible only for the portion covering loss of INCOME. Premiums for life, trauma or TPD cover are not deductible, nor are policies held inside super."
+        },
+        {
+          "id": "subscriptions",
+          "name": "Professional journals and industry subscriptions",
+          "rule": "Deductible where directly connected to earning income."
+        }
       ],
-      "keywords": ["office", "stationery", "laptop", "monitor", "desk", "chair", "software", "subscription", "union", "membership", "tools"],
+      "keywords": [
+        "adobe",
+        "broadband",
+        "bunnings",
+        "canva",
+        "chair",
+        "desk",
+        "drill",
+        "hardware",
+        "ladder",
+        "laptop",
+        "licence",
+        "license",
+        "membership",
+        "microsoft",
+        "mobile",
+        "monitor",
+        "myob",
+        "nbn",
+        "office",
+        "optus",
+        "phone plan",
+        "power tool",
+        "saas",
+        "safety",
+        "software",
+        "stationery",
+        "subscription",
+        "telstra",
+        "toolbox",
+        "tools",
+        "union",
+        "vodafone",
+        "xero"
+      ],
       "risk": "medium"
     },
     {
@@ -141,9 +273,21 @@
       "label": "D7",
       "name": "Interest and dividend deductions",
       "cite": "ITAA 1997 s 8-1; TR 95/33",
-      "deductible_when": ["Interest on money borrowed to acquire income-producing investments", "Ongoing management and advice fees relating to existing investments", "Investment journal subscriptions"],
-      "never_deductible": ["Initial investment advice fees for setting up a new portfolio (capital)", "Interest on a loan used for private purposes, even if secured against an investment"],
-      "keywords": ["margin loan", "brokerage", "portfolio", "investment interest"],
+      "deductible_when": [
+        "Interest on money borrowed to acquire income-producing investments",
+        "Ongoing management and advice fees relating to existing investments",
+        "Investment journal subscriptions"
+      ],
+      "never_deductible": [
+        "Initial investment advice fees for setting up a new portfolio (capital)",
+        "Interest on a loan used for private purposes, even if secured against an investment"
+      ],
+      "keywords": [
+        "margin loan",
+        "brokerage",
+        "portfolio",
+        "investment interest"
+      ],
       "risk": "medium"
     },
     {
@@ -151,10 +295,22 @@
       "label": "D9",
       "name": "Gifts or donations",
       "cite": "ITAA 1997 Div 30",
-      "deductible_when": ["Gift of $2 or more to an endorsed Deductible Gift Recipient (DGR)"],
-      "never_deductible": ["Raffle tickets, chocolates, badges and anything where you received a material benefit", "Crowdfunding for an individual", "School building fund contributions that are actually fees", "Gifts to a non-DGR, however worthy"],
+      "deductible_when": [
+        "Gift of $2 or more to an endorsed Deductible Gift Recipient (DGR)"
+      ],
+      "never_deductible": [
+        "Raffle tickets, chocolates, badges and anything where you received a material benefit",
+        "Crowdfunding for an individual",
+        "School building fund contributions that are actually fees",
+        "Gifts to a non-DGR, however worthy"
+      ],
       "check": "Verify DGR endorsement on the ABN Lookup register before claiming.",
-      "keywords": ["donation", "charity", "dgr", "fundraiser"],
+      "keywords": [
+        "donation",
+        "charity",
+        "dgr",
+        "fundraiser"
+      ],
       "risk": "low",
       "risk_note": "A deduction cannot create or increase a tax loss for individuals; excess may be spread over up to 5 years by election."
     },
@@ -163,9 +319,21 @@
       "label": "D10",
       "name": "Cost of managing tax affairs",
       "cite": "ITAA 1997 s 25-5",
-      "deductible_when": ["Registered tax agent fees", "Tax reference material", "Costs of an ATO objection, review or appeal", "Interest charged by the ATO (GIC/SIC)"],
-      "never_deductible": ["Tax shortfall penalties (s 26-5)"],
-      "keywords": ["accountant", "tax agent", "bookkeeper", "tax return fee"],
+      "deductible_when": [
+        "Registered tax agent fees",
+        "Tax reference material",
+        "Costs of an ATO objection, review or appeal",
+        "Interest charged by the ATO (GIC/SIC)"
+      ],
+      "never_deductible": [
+        "Tax shortfall penalties (s 26-5)"
+      ],
+      "keywords": [
+        "accountant",
+        "tax agent",
+        "bookkeeper",
+        "tax return fee"
+      ],
       "risk": "low"
     },
     {
@@ -173,9 +341,18 @@
       "label": "P8",
       "name": "Business - cost of goods sold",
       "cite": "ITAA 1997 s 8-1, Div 70 (trading stock)",
-      "applies_to": ["sole_trader", "business"],
+      "applies_to": [
+        "sole_trader",
+        "business"
+      ],
       "rule": "Opening stock + purchases - closing stock. Stock must be valued at cost, market selling value or replacement value, chosen per item each year.",
-      "keywords": ["stock", "inventory", "supplier", "wholesale", "purchase"],
+      "keywords": [
+        "stock",
+        "inventory",
+        "supplier",
+        "wholesale",
+        "purchase"
+      ],
       "risk": "medium"
     },
     {
@@ -184,11 +361,35 @@
       "name": "Entertainment (non-deductible)",
       "cite": "ITAA 1997 Div 32",
       "rule": "Entertainment expenses are NOT deductible unless an exception in Subdiv 32-B applies, or the cost is subject to FBT.",
-      "never_deductible": ["Business lunches and dinners with clients", "Tickets to sporting or cultural events", "Golf days and corporate boxes"],
-      "exceptions": ["In-house dining facilities", "Seminars of at least 4 hours where entertainment is incidental", "Food provided to an employee that is subject to FBT"],
-      "keywords": ["restaurant", "cafe", "bar", "pub", "lunch", "dinner", "drinks", "tickets", "golf"],
+      "never_deductible": [
+        "Business lunches and dinners with clients",
+        "Tickets to sporting or cultural events",
+        "Golf days and corporate boxes"
+      ],
+      "exceptions": [
+        "In-house dining facilities",
+        "Seminars of at least 4 hours where entertainment is incidental",
+        "Food provided to an employee that is subject to FBT"
+      ],
+      "keywords": [
+        "bar",
+        "brewery",
+        "cafe",
+        "club",
+        "dinner",
+        "drinks",
+        "golf",
+        "hotel",
+        "lunch",
+        "pub",
+        "restaurant",
+        "tavern",
+        "tickets",
+        "winery"
+      ],
       "risk": "high",
-      "risk_note": "This is the most commonly misclassified business expense. Coding a client dinner to 'Meals' or 'Marketing' does not make it deductible."
+      "risk_note": "This is the most commonly misclassified business expense. Coding a client dinner to 'Meals' or 'Marketing' does not make it deductible.",
+      "classification_trap": "In Australia a great many pubs are licensed as Hotels, so a merchant name containing 'Hotel' is at least as likely to be a Friday lunch as it is accommodation. Where the description carries a meal or drinks signal, Div 32 entertainment is the safer reading and the deduction is denied. Treating it as D2 travel accommodation silently converts a non-deductible expense into a deductible one, which is the error direction that draws review."
     },
     {
       "code": "AU-BUS-FINES",
@@ -196,7 +397,13 @@
       "name": "Fines and penalties (non-deductible)",
       "cite": "ITAA 1997 s 26-5",
       "rule": "Penalties or fines imposed by an Australian or foreign government body are never deductible.",
-      "keywords": ["fine", "infringement", "speeding", "parking fine", "penalty"],
+      "keywords": [
+        "fine",
+        "infringement",
+        "speeding",
+        "parking fine",
+        "penalty"
+      ],
       "risk": "low"
     }
   ]

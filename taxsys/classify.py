@@ -196,10 +196,15 @@ class Classifier:
             if sub.get("id", "").replace("_", " ") in haystack:
                 hits.append(sub["id"])
                 score += 1.5
-        # Denial categories win ties. Telling someone a claim fails is more
-        # useful than quietly filing it under something that passes.
+        # A denial signal outweighs a merchant-name match, deliberately.
+        # "The Norfolk Hotel, lunch with subcontractor" matches "hotel" on the
+        # merchant and "lunch" in the description. Australian pubs are licensed
+        # as Hotels, so reading that as accommodation would turn a Div 32
+        # entertainment expense into a deductible travel claim. Over-denying is
+        # recoverable by the user; silently allowing a denied expense is what
+        # draws an amended assessment.
         if hits and any(marker in cat.get("code", "").upper() for marker in _DENIAL_MARKERS):
-            score += 0.5
+            score += 2.5
         return score, cat, hits
 
     # ---------------------------------------------------------- explanation
