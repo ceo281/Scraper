@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uscDoc xmlns="http://schemas.gpo.gov/xml/uslm">
+  <main>
+    <title><num value="26">Title 26</num>
+      <section identifier="/us/usc/t26/s162">
+        <num value="162">§ 162.</num>
+        <heading>Trade or business expenses</heading>
+        <subsection><num>(a)</num><content>There shall be allowed as a deduction all the ordinary and necessary expenses paid or incurred during the taxable year in carrying on any trade or business, including a reasonable allowance for salaries or other compensation for personal services actually rendered.</content></subsection>
+        <subsection><num>(f)</num><content>Except as provided in this subsection, no deduction otherwise allowable shall be allowed for any amount paid or incurred to, or at the direction of, a government or governmental entity in relation to the violation of any law.</content></subsection>
+      </section>
+      <section identifier="/us/usc/t26/s274">
+        <num value="274">§ 274.</num>
+        <heading>Disallowance of certain entertainment, etc., expenses</heading>
+        <subsection><num>(a)</num><content>No deduction otherwise allowable under this chapter shall be allowed for any item with respect to an activity which is of a type generally considered to constitute entertainment, amusement, or recreation.</content></subsection>
+        <subsection><num>(n)</num><content>The amount allowable as a deduction for any expense for food or beverages shall not exceed 50 percent of the amount of such expense.</content></subsection>
+      </section>
+    </title>
+  </main>
+</uscDoc>
