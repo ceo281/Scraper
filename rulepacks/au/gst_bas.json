@@ -1,0 +1,83 @@
+{
+  "jurisdiction": "AU",
+  "name": "GST and Business Activity Statement",
+  "verification": { "status": "unverified", "reviewer": null, "reviewed_at": null },
+  "cite": "A New Tax System (Goods and Services Tax) Act 1999; TAA 1953 Sch 1",
+  "source_url": "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst",
+
+  "registration": {
+    "compulsory_turnover_threshold": 75000,
+    "non_profit_threshold": 150000,
+    "taxi_rideshare_threshold": 0,
+    "note": "Ride-sourcing and taxi travel must register for GST from the first dollar, regardless of turnover."
+  },
+  "rate": 0.10,
+  "accounting_basis": ["cash", "accruals"],
+  "cash_basis_turnover_limit": 10000000,
+
+  "reporting_cycles": [
+    { "id": "quarterly", "default": true, "turnover_under": 20000000 },
+    { "id": "monthly", "turnover_over": 20000000 },
+    { "id": "annual", "note": "Voluntarily registered entities below the threshold may elect annual reporting." }
+  ],
+
+  "bas_quarters": [
+    { "q": 1, "period": "Jul-Sep", "starts": "07-01", "ends": "09-30", "due_self": "10-28", "due_via_agent": "11-25" },
+    { "q": 2, "period": "Oct-Dec", "starts": "10-01", "ends": "12-31", "due_self": "02-28", "due_via_agent": "02-28" },
+    { "q": 3, "period": "Jan-Mar", "starts": "01-01", "ends": "03-31", "due_self": "04-28", "due_via_agent": "05-26" },
+    { "q": 4, "period": "Apr-Jun", "starts": "04-01", "ends": "06-30", "due_self": "07-28", "due_via_agent": "08-25" }
+  ],
+  "due_date_note": "If a due date falls on a weekend or public holiday, it moves to the next business day. Agent concession dates apply only where the client is on the agent's lodgment program.",
+
+  "labels": {
+    "G1":  "Total sales (GST inclusive)",
+    "G2":  "Export sales",
+    "G3":  "Other GST-free sales",
+    "G10": "Capital purchases (GST inclusive)",
+    "G11": "Non-capital purchases (GST inclusive)",
+    "1A":  "GST on sales (GST collected)",
+    "1B":  "GST on purchases (input tax credits)",
+    "W1":  "Total salary, wages and other payments",
+    "W2":  "Amounts withheld from salary and wages",
+    "T1":  "PAYG instalment income",
+    "T7":  "PAYG instalment amount",
+    "5A":  "PAYG instalment payable",
+    "7":   "Deferred company or fund instalment"
+  },
+
+  "gst_free_categories": [
+    { "id": "basic_food", "cite": "GST Act Subdiv 38-A", "note": "Basic food is GST-free, but prepared food, restaurant meals, confectionery, savoury snacks, bakery products and most beverages are taxable. The food list is long and counterintuitive." },
+    { "id": "health", "cite": "GST Act Subdiv 38-B" },
+    { "id": "education", "cite": "GST Act Subdiv 38-C" },
+    { "id": "childcare", "cite": "GST Act Subdiv 38-D" },
+    { "id": "exports", "cite": "GST Act Subdiv 38-E", "note": "Goods must be exported within 60 days of the earlier of receiving consideration or issuing an invoice." },
+    { "id": "going_concern", "cite": "GST Act Subdiv 38-J", "note": "Requires a written agreement that the supply is of a going concern." }
+  ],
+
+  "input_taxed_categories": [
+    { "id": "financial_supplies", "cite": "GST Act Subdiv 40-A", "note": "No GST charged and generally no input tax credits. Watch the financial acquisitions threshold." },
+    { "id": "residential_rent", "cite": "GST Act Subdiv 40-B" },
+    { "id": "residential_premises_sale", "cite": "GST Act Subdiv 40-C", "note": "New residential premises are an exception and are taxable." }
+  ],
+
+  "credit_denial_rules": [
+    { "rule": "No input tax credit without a valid tax invoice for purchases over $82.50 including GST.", "cite": "GST Act s 29-70, s 29-10" },
+    { "rule": "No credit for the private-use portion of an acquisition. Apportion.", "cite": "GST Act s 11-15" },
+    { "rule": "No credit for acquisitions relating to input-taxed supplies.", "cite": "GST Act s 11-15(2)(a)" },
+    { "rule": "No credit for entertainment expenses to the extent the expense is non-deductible under Div 32 ITAA 1997.", "cite": "GST Act s 69-5" },
+    { "rule": "Input tax credits expire 4 years after the due date of the BAS in which they could first have been claimed.", "cite": "TAA 1953 s 105-55" }
+  ],
+
+  "tax_invoice_requirements": {
+    "under_1000": ["the words 'tax invoice'", "seller identity", "seller ABN", "date of issue", "brief description of items", "GST amount or a statement that the total includes GST"],
+    "over_1000": ["all of the above", "buyer identity or ABN", "quantity of goods sold"],
+    "cite": "GST Act s 29-70"
+  },
+
+  "payg_instalments": {
+    "cite": "TAA 1953 Sch 1 Div 45",
+    "entry_threshold_business_or_investment_income": 4000,
+    "methods": ["instalment_amount_T7", "instalment_rate_T2"],
+    "note": "The ATO enters you into PAYG instalments automatically based on your last assessed return. Varying an instalment downward and underestimating by more than 15% attracts the general interest charge."
+  }
+}

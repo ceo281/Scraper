@@ -1,0 +1,33 @@
+{
+  "jurisdiction": "US",
+  "authority": "Internal Revenue Service / United States Code Title 26",
+  "pack_version": "0.1.0",
+  "schema_version": 1,
+  "scope": {
+    "in_scope": [
+      "Federal individual income tax (Form 1040)",
+      "Sole proprietor and single-member LLC business income (Schedule C)",
+      "Self-employment tax (Schedule SE)",
+      "Itemized deductions (Schedule A)",
+      "Qualified business income deduction (IRC 199A)",
+      "Quarterly estimated tax (Form 1040-ES)",
+      "Substantiation under IRC 274(d) and Reg 1.274-5"
+    ],
+    "out_of_scope": [
+      "STATE AND LOCAL INCOME TAX. This is the single largest gap in the US pack. 43 states impose an individual income tax with independent rules, and several cities impose their own.",
+      "Corporate (1120), S corporation (1120-S) and partnership (1065) returns",
+      "Estate, gift and generation-skipping transfer tax",
+      "International reporting: FBAR, FATCA, Form 5471, Form 8938",
+      "Payroll tax filings (941, 940, W-2)",
+      "Sales and use tax, which is state administered and out of scope entirely"
+    ]
+  },
+  "verification": {
+    "status": "unverified",
+    "note": "NO FIGURE IN THIS PACK HAS BEEN CONFIRMED AGAINST A PRIMARY SOURCE. The 2025 figures reflect amendments made by the One Big Beautiful Bill Act (Pub. L. 119-21, enacted July 2025), which changed the standard deduction, SALT cap, section 179 limit and bonus depreciation mid-year. Every entry must be checked against the controlling Revenue Procedure and the enacted statute by a credentialed preparer before use.",
+    "reviewer": null,
+    "reviewed_at": null,
+    "signoff_required_by": "CPA, Enrolled Agent, or attorney (Circular 230, 31 CFR Part 10)"
+  },
+  "period": { "type": "calendar_year", "starts": "01-01", "ends": "12-31", "label_format": "TY{year}" }
+}

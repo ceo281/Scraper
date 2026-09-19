@@ -1,0 +1,123 @@
+{
+  "jurisdiction": "US",
+  "schema_version": 1,
+  "verification": { "status": "unverified", "reviewer": null, "reviewed_at": null },
+
+  "general_test": {
+    "cite": "IRC 162(a)",
+    "requirements": [
+      "Ordinary: common and accepted in the taxpayer's trade or business",
+      "Necessary: appropriate and helpful, not strictly indispensable",
+      "Paid or incurred during the taxable year",
+      "In carrying on a trade or business (not start-up, which is IRC 195)",
+      "Not a capital expenditure (IRC 263), and not personal (IRC 262)"
+    ],
+    "apportionment_rule": "A mixed business and personal expense is deductible only to the extent of the business portion, and the allocation must be reasonable and supportable.",
+    "key_case": "Welch v. Helvering, 290 U.S. 111 (1933) established the ordinary and necessary standard.",
+    "employee_note": "Unreimbursed employee business expenses are NOT deductible for tax years 2018 through 2025. IRC 67(g) suspends all miscellaneous itemized deductions subject to the 2% floor. This catches W-2 employees who assume they can deduct work expenses. They cannot."
+  },
+
+  "categories": [
+    {
+      "code": "US-SCHC-MEALS",
+      "schedule": "C",
+      "line": "24b",
+      "name": "Business meals",
+      "cite": "IRC 274(n)(1), 274(k); Reg 1.274-12",
+      "deductible_percent": 0.50,
+      "requirements": [
+        "Not lavish or extravagant under the circumstances",
+        "The taxpayer or an employee of the taxpayer is present",
+        "Provided to a current or potential business customer, client, consultant or similar business contact",
+        "For food or beverages provided with entertainment, purchased separately and separately stated on the invoice"
+      ],
+      "substantiation": ["amount", "date", "place", "business purpose", "business relationship of the persons entertained"],
+      "exceptions_100_percent": [
+        "Expenses treated as compensation to the recipient (IRC 274(e)(2))",
+        "Reimbursed expenses under an accountable plan (IRC 274(e)(3))",
+        "Recreational or social expenses primarily for the benefit of non-highly-compensated employees, such as a company holiday party (IRC 274(e)(4))",
+        "Items made available to the general public (IRC 274(e)(7))",
+        "Goods or services sold to customers in a bona fide transaction (IRC 274(e)(8))"
+      ],
+      "keywords": ["restaurant", "cafe", "coffee", "lunch", "dinner", "catering", "doordash", "ubereats", "grubhub"],
+      "risk": "high",
+      "risk_note": "The 100% deduction for restaurant meals expired after 2022. It is now 50%. Employer-operated eating facility and office snack costs dropped to 50% in 2018 and are scheduled to become fully non-deductible after 2025 under IRC 274(o)."
+    },
+    {
+      "code": "US-NONDED-ENTERTAINMENT",
+      "schedule": "C",
+      "name": "Entertainment (non-deductible)",
+      "cite": "IRC 274(a)(1) as amended by Pub. L. 115-97",
+      "deductible_percent": 0.0,
+      "rule": "No deduction is allowed for any activity generally considered entertainment, amusement or recreation, regardless of business purpose, since 2018.",
+      "never_deductible": ["Sporting event tickets, including skyboxes", "Golf outings and country club dues", "Theater and concert tickets", "Fishing, hunting and sailing trips", "Nightclubs and cocktail lounges"],
+      "keywords": ["tickets", "stadium", "golf", "club dues", "concert", "theater", "suite"],
+      "risk": "high",
+      "risk_note": "Recoding an entertainment expense as 'marketing' or 'client development' does not change its character. Food purchased at an entertainment event is 50% deductible only if invoiced separately."
+    },
+    {
+      "code": "US-SCHC-VEHICLE",
+      "schedule": "C",
+      "line": "9",
+      "name": "Car and truck expenses",
+      "cite": "IRC 162, 274(d), 280F; Reg 1.274-5",
+      "methods": [
+        { "id": "standard_mileage", "rate_2025": 0.70, "note": "Must be chosen in the first year the vehicle is placed in service. Cannot be used if the vehicle was previously depreciated using MACRS or section 179, or if operating five or more vehicles simultaneously." },
+        { "id": "actual_expenses", "note": "Gas, oil, repairs, insurance, registration, lease payments and depreciation, multiplied by the business use percentage." }
+      ],
+      "substantiation": ["mileage for each business use", "date", "destination", "business purpose", "total annual mileage"],
+      "never_deductible": ["Commuting between home and a regular place of business, however long the drive", "Parking tickets and traffic fines (IRC 162(f))"],
+      "deductible_when": ["Travel between two business locations", "Travel to a temporary work location outside the metropolitan area", "Travel from a qualifying home office to any business destination, since the home office is then the principal place of business"],
+      "keywords": ["shell", "chevron", "exxon", "bp", "gas", "fuel", "parking", "toll", "uber", "lyft", "auto repair", "tires", "dmv"],
+      "risk": "high",
+      "risk_note": "IRC 274(d) imposes strict substantiation. Without a contemporaneous log the deduction is disallowed entirely, and the Cohan rule of estimation does not apply to listed property."
+    },
+    {
+      "code": "US-SCHC-HOME_OFFICE",
+      "schedule": "C",
+      "line": "30",
+      "name": "Business use of home",
+      "cite": "IRC 280A(c); Rev. Proc. 2013-13",
+      "methods": [
+        { "id": "simplified", "rate_per_sqft": 5.00, "max_sqft": 300, "max_deduction": 1500, "note": "No depreciation, no carryforward of disallowed amounts, and mortgage interest and real estate taxes stay on Schedule A in full." },
+        { "id": "regular", "form": "8829", "note": "Allocate actual costs by square footage or rooms. Generates depreciation, which is subject to unrecaptured section 1250 gain at 25% on sale." }
+      ],
+      "requirements": [
+        "Exclusive use: the space is used only for business, with no personal use at all",
+        "Regular use: used on a continuing basis, not occasionally",
+        "AND one of: principal place of business, a place to meet clients in the normal course of business, or a separate structure not attached to the dwelling"
+      ],
+      "exceptions_to_exclusive_use": ["Storage of inventory or product samples where the home is the sole fixed location of the business", "A licensed daycare facility"],
+      "limit": "The deduction cannot create or increase a business loss. Disallowed amounts carry forward under the regular method only.",
+      "keywords": ["rent", "mortgage", "utilities", "electric", "internet", "homeowners insurance", "hoa"],
+      "risk": "high",
+      "risk_note": "Exclusive use is strict. A desk in a bedroom corner that is also used personally fails. A spare room used only for work passes."
+    },
+    {
+      "code": "US-SCHC-TRAVEL",
+      "schedule": "C",
+      "line": "24a",
+      "name": "Travel away from home",
+      "cite": "IRC 162(a)(2), 274(d); Rev. Proc. 2019-48",
+      "requirements": [
+        "Away from the tax home substantially longer than an ordinary day's work",
+        "Requiring sleep or rest to meet the demands of the work",
+        "The trip is primarily for business, determined by the ratio of business days to total days"
+      ],
+      "deductible_items": ["Airfare and transportation to the destination", "Lodging", "50% of meals, or the federal per diem M&IE rate at 50%", "Baggage, shipping, laundry, business calls", "Taxis and rideshare at the destination"],
+      "never_deductible": ["Travel for a spouse or dependent unless they are an employee with a bona fide business purpose", "The personal portion of a mixed trip", "Costs of a temporary assignment realistically expected to last more than one year, which relocates the tax home"],
+      "keywords": ["airline", "delta", "united", "american airlines", "southwest", "hotel", "marriott", "hilton", "airbnb", "hertz", "avis"],
+      "risk": "high"
+    },
+    { "code": "US-SCHC-SUPPLIES", "schedule": "C", "line": "22", "name": "Supplies", "cite": "IRC 162; Reg 1.162-3", "rule": "Non-incidental materials and supplies are deductible in the year used or consumed. Incidental supplies are deductible when paid if no inventory record is kept and income is clearly reflected.", "de_minimis_safe_harbor": { "cite": "Reg 1.263(a)-1(f)", "amount_no_afs": 2500, "amount_with_afs": 5000, "note": "Requires a written accounting policy in place at the start of the tax year." }, "keywords": ["office depot", "staples", "amazon", "supplies", "paper", "toner"], "risk": "low" },
+    { "code": "US-SCHC-CONTRACT_LABOR", "schedule": "C", "line": "11", "name": "Contract labor", "cite": "IRC 162; IRC 6041A", "rule": "Payments to non-employees for services. Requires Form 1099-NEC where payments to an unincorporated payee reach $600 in the year.", "risk": "medium", "risk_note": "Worker misclassification is a major enforcement area. The common law control test and the section 530 safe harbor both matter. Treating an employee as a contractor exposes the payer to back payroll tax, interest and penalties.", "keywords": ["contractor", "freelance", "upwork", "fiverr", "consultant"] },
+    { "code": "US-SCHC-ADVERTISING", "schedule": "C", "line": "8", "name": "Advertising", "cite": "IRC 162; Reg 1.162-1(a)", "rule": "Ordinary advertising costs to generate business are currently deductible. Costs producing a long-term benefit may need capitalising.", "keywords": ["google ads", "facebook ads", "meta", "linkedin", "advertising", "marketing", "seo", "billboard"], "risk": "low" },
+    { "code": "US-SCHC-INSURANCE", "schedule": "C", "line": "15", "name": "Insurance (other than health)", "cite": "IRC 162", "rule": "Business liability, property, malpractice and errors and omissions premiums. Health insurance goes to the separate self-employed health insurance deduction, not here.", "keywords": ["insurance", "liability", "malpractice", "e&o"], "risk": "low" },
+    { "code": "US-1040-SEHI", "schedule": "1", "line": "17", "name": "Self-employed health insurance deduction", "cite": "IRC 162(l)", "rule": "An above-the-line deduction for medical, dental and qualified long-term care premiums for the taxpayer, spouse and dependents.", "limits": ["Limited to net profit from the business less the deductible half of SE tax and retirement contributions", "Not available for any month the taxpayer is eligible for subsidised coverage through an employer or a spouse's employer", "Does not reduce self-employment tax, only income tax"], "risk": "medium" },
+    { "code": "US-SCHA-SALT", "schedule": "A", "line": "5", "name": "State and local taxes", "cite": "IRC 164, 164(b)(6)", "cap_2025": 40000, "rule": "State and local income OR sales tax, plus real property tax and personal property tax, subject to the cap.", "risk": "low" },
+    { "code": "US-SCHA-CHARITY", "schedule": "A", "line": "11", "name": "Charitable contributions", "cite": "IRC 170; Reg 1.170A-13", "substantiation": ["Any cash gift: a bank record or written communication from the donee", "$250 or more: a contemporaneous written acknowledgment stating whether goods or services were provided", "Non-cash over $500: Form 8283", "Non-cash over $5,000: a qualified appraisal"], "never_deductible": ["Gifts to individuals, including crowdfunding for a person", "The value of volunteered time or services", "The portion of a payment representing goods or services received", "Contributions to a non-qualified organisation"], "agi_limits": { "cash_to_public_charity": 0.60, "appreciated_property_to_public_charity": 0.30, "carryforward_years": 5 }, "keywords": ["donation", "charity", "church", "foundation", "nonprofit"], "risk": "medium" },
+    { "code": "US-NONDED-FINES", "name": "Fines and penalties (non-deductible)", "cite": "IRC 162(f)", "rule": "No deduction for amounts paid to a government or governmental entity in relation to the violation of any law, subject to narrow exceptions for restitution and amounts paid to come into compliance, which must be identified in the order or agreement.", "keywords": ["fine", "penalty", "citation", "ticket", "violation"], "risk": "low" },
+    { "code": "US-NONDED-POLITICAL", "name": "Political and lobbying (non-deductible)", "cite": "IRC 162(e)", "rule": "No deduction for political contributions or for lobbying at the federal or state level. A limited exception exists for local council lobbying.", "keywords": ["campaign", "political", "pac", "lobbying"], "risk": "low" },
+    { "code": "US-NONDED-COMMUTING", "name": "Commuting (non-deductible)", "cite": "Reg 1.162-2(e); IRC 262", "rule": "The cost of getting to and from a regular place of business is a personal expense, however far the commute.", "keywords": ["commute", "transit pass", "metro card"], "risk": "low" }
+  ]
+}

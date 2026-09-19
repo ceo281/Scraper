@@ -1,0 +1,203 @@
+{
+  "jurisdiction": "AU",
+  "schema_version": 1,
+  "verification": { "status": "unverified", "reviewer": null, "reviewed_at": null },
+  "general_test": {
+    "cite": "ITAA 1997 s 8-1",
+    "positive_limbs": [
+      "Incurred in gaining or producing your assessable income, OR",
+      "Necessarily incurred in carrying on a business for that purpose"
+    ],
+    "negative_limbs": [
+      "Capital or of a capital nature (deduct under Div 40/43 instead)",
+      "Private or domestic in nature",
+      "Incurred in gaining exempt or non-assessable non-exempt income",
+      "Specifically prevented by another provision"
+    ],
+    "apportionment_rule": "Where an expense serves both an income-producing and a private purpose it must be apportioned on a fair and reasonable basis. Claiming 100% of a mixed-purpose expense is the single most common audit trigger."
+  },
+
+  "categories": [
+    {
+      "code": "AU-D1-CAR",
+      "label": "D1",
+      "name": "Work-related car expenses",
+      "cite": "ITAA 1997 Div 28; s 25-100",
+      "source_url": "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/deductions-you-can-claim/cars-transport-and-travel",
+      "methods": [
+        { "id": "cents_per_km", "cap_km": 5000, "evidence": "reasonable basis for the kilometre estimate (diary, roster, client list)" },
+        { "id": "logbook", "evidence": "12-week continuous logbook valid for 5 years + odometer readings + all running cost receipts" }
+      ],
+      "deductible_when": [
+        "Travel between two separate workplaces or employers",
+        "Travel from your workplace to an alternative workplace (client site) and back",
+        "Carrying bulky tools where there is no secure storage at the workplace",
+        "Your home is a genuine base of employment and you travel to a workplace"
+      ],
+      "never_deductible": [
+        "Ordinary home-to-work commuting, even if you work outside normal hours",
+        "Travel where the employer provides a car or reimburses on a cents-per-km basis",
+        "Travel made private by a detour (school drop-off, shopping) - apportion it out"
+      ],
+      "keywords": ["fuel", "petrol", "diesel", "servicing", "rego", "registration", "tyres", "car insurance", "roadside", "nrma", "racv", "racq", "toll", "linkt", "e-toll"],
+      "risk": "high",
+      "risk_note": "The ATO data-matches registration and toll records. A claim at exactly 5,000 km with no supporting basis is a standard review flag."
+    },
+    {
+      "code": "AU-D2-TRAVEL",
+      "label": "D2",
+      "name": "Work-related travel expenses",
+      "cite": "ITAA 1997 s 8-1, Div 900 Subdiv 900-B; TR 2021/4",
+      "deductible_when": [
+        "Travel undertaken in performing your work duties, away from home overnight",
+        "Accommodation, meals and incidentals while travelling for work"
+      ],
+      "never_deductible": [
+        "Living-away-from-home costs (that is an FBT matter, not a deduction)",
+        "Costs of a spouse or family member accompanying you",
+        "The private portion of a trip that mixes work and holiday - apportion strictly"
+      ],
+      "substantiation": "Written evidence for all costs; a travel diary is required for trips of 6 or more consecutive nights away from home.",
+      "keywords": ["flight", "qantas", "virgin", "jetstar", "hotel", "motel", "airbnb", "accommodation", "taxi", "uber", "didi", "parking", "airport"],
+      "risk": "high"
+    },
+    {
+      "code": "AU-D3-CLOTHING",
+      "label": "D3",
+      "name": "Work-related clothing, laundry and dry cleaning",
+      "cite": "ITAA 1997 Div 34; TR 97/12; TR 98/5",
+      "deductible_when": [
+        "Occupation-specific clothing that distinctly identifies your profession (chef's checks, barrister's robes)",
+        "Protective clothing and footwear (steel caps, hi-vis, non-slip nursing shoes, sun protection for outdoor work)",
+        "A compulsory uniform that is distinctive to the employer, enforced by a strictly applied policy",
+        "A registered non-compulsory uniform (must be on the Register of Approved Occupational Clothing)"
+      ],
+      "never_deductible": [
+        "Conventional clothing, however unwillingly worn - a plain suit, black pants, white shirt",
+        "Everyday footwear, even where the employer specifies a colour",
+        "Gym wear for fitness instructors unless it carries a compulsory logo"
+      ],
+      "keywords": ["uniform", "workwear", "hi-vis", "steel cap", "boots", "scrubs", "dry cleaning", "laundry", "sunscreen", "safety glasses"],
+      "risk": "medium",
+      "risk_note": "Laundry claims under $150 need no receipts but still need a reasonable basis. This is the most commonly over-claimed label."
+    },
+    {
+      "code": "AU-D4-SELF_EDUCATION",
+      "label": "D4",
+      "name": "Work-related self-education expenses",
+      "cite": "ITAA 1997 s 8-1, s 26-20; TR 2024/3",
+      "deductible_when": [
+        "The course maintains or improves a skill or specific knowledge required in your CURRENT employment",
+        "The course is likely to result in increased income from your current employment"
+      ],
+      "never_deductible": [
+        "Education to obtain NEW employment or open a new income-earning activity",
+        "HELP/HECS-HELP loan repayments (s 26-20 expressly denies these)",
+        "Courses undertaken while not employed in the relevant field"
+      ],
+      "deductible_items": ["course fees (not HELP)", "textbooks", "stationery", "student union fees", "travel to and from the place of education", "depreciation on a computer used for study"],
+      "keywords": ["course", "tuition", "textbook", "seminar", "conference", "webinar", "certification", "cpd", "training", "udemy", "coursera"],
+      "risk": "medium"
+    },
+    {
+      "code": "AU-D5-OTHER_WRE",
+      "label": "D5",
+      "name": "Other work-related expenses",
+      "cite": "ITAA 1997 s 8-1; PCG 2023/1 (working from home)",
+      "subcategories": [
+        {
+          "id": "home_office",
+          "name": "Working from home",
+          "methods": [
+            { "id": "fixed_rate", "rate_per_hour": 0.70, "record": "total actual hours worked from home for the full year - contemporaneous record required" },
+            { "id": "actual_cost", "record": "receipts plus a reasonable basis for the work-related percentage of each cost" }
+          ],
+          "never_deductible": [
+            "Rent, mortgage interest, rates or home insurance for an employee - occupancy costs require a dedicated place of business and can cost you the main residence CGT exemption",
+            "Coffee, tea, milk and other general household items",
+            "Costs your employer reimbursed"
+          ],
+          "cgt_warning": "Claiming occupancy costs can partially forfeit the main residence CGT exemption under s 118-190. Flag to an adviser before doing this."
+        },
+        { "id": "tools_equipment", "name": "Tools and equipment", "rule": "Immediate deduction if cost is $300 or less and the item is not part of a set; otherwise depreciate under Div 40.", "immediate_threshold": 300 },
+        { "id": "phone_internet", "name": "Phone and internet", "rule": "Work-use percentage only, established by a representative 4-week record. Cannot be claimed separately if using the fixed-rate WFH method." },
+        { "id": "union_fees", "name": "Union fees and professional association subscriptions", "rule": "Fully deductible where membership relates to current employment." },
+        { "id": "income_protection", "name": "Income protection insurance", "rule": "Deductible only for the portion covering loss of INCOME. Premiums for life, trauma or TPD cover are not deductible, nor are policies held inside super." },
+        { "id": "subscriptions", "name": "Professional journals and industry subscriptions", "rule": "Deductible where directly connected to earning income." }
+      ],
+      "keywords": ["office", "stationery", "laptop", "monitor", "desk", "chair", "software", "subscription", "union", "membership", "tools"],
+      "risk": "medium"
+    },
+    {
+      "code": "AU-D6-LOW_VALUE_POOL",
+      "label": "D6",
+      "name": "Low-value pool deduction",
+      "cite": "ITAA 1997 Subdiv 40-E",
+      "rule": "Assets costing under $1,000, or written down to under $1,000, may be pooled and depreciated at 18.75% in the first year and 37.5% thereafter.",
+      "risk": "low"
+    },
+    {
+      "code": "AU-D7-INTEREST_DIVIDEND",
+      "label": "D7",
+      "name": "Interest and dividend deductions",
+      "cite": "ITAA 1997 s 8-1; TR 95/33",
+      "deductible_when": ["Interest on money borrowed to acquire income-producing investments", "Ongoing management and advice fees relating to existing investments", "Investment journal subscriptions"],
+      "never_deductible": ["Initial investment advice fees for setting up a new portfolio (capital)", "Interest on a loan used for private purposes, even if secured against an investment"],
+      "keywords": ["margin loan", "brokerage", "portfolio", "investment interest"],
+      "risk": "medium"
+    },
+    {
+      "code": "AU-D9-GIFTS",
+      "label": "D9",
+      "name": "Gifts or donations",
+      "cite": "ITAA 1997 Div 30",
+      "deductible_when": ["Gift of $2 or more to an endorsed Deductible Gift Recipient (DGR)"],
+      "never_deductible": ["Raffle tickets, chocolates, badges and anything where you received a material benefit", "Crowdfunding for an individual", "School building fund contributions that are actually fees", "Gifts to a non-DGR, however worthy"],
+      "check": "Verify DGR endorsement on the ABN Lookup register before claiming.",
+      "keywords": ["donation", "charity", "dgr", "fundraiser"],
+      "risk": "low",
+      "risk_note": "A deduction cannot create or increase a tax loss for individuals; excess may be spread over up to 5 years by election."
+    },
+    {
+      "code": "AU-D10-COST_OF_MANAGING_TAX",
+      "label": "D10",
+      "name": "Cost of managing tax affairs",
+      "cite": "ITAA 1997 s 25-5",
+      "deductible_when": ["Registered tax agent fees", "Tax reference material", "Costs of an ATO objection, review or appeal", "Interest charged by the ATO (GIC/SIC)"],
+      "never_deductible": ["Tax shortfall penalties (s 26-5)"],
+      "keywords": ["accountant", "tax agent", "bookkeeper", "tax return fee"],
+      "risk": "low"
+    },
+    {
+      "code": "AU-BUS-COGS",
+      "label": "P8",
+      "name": "Business - cost of goods sold",
+      "cite": "ITAA 1997 s 8-1, Div 70 (trading stock)",
+      "applies_to": ["sole_trader", "business"],
+      "rule": "Opening stock + purchases - closing stock. Stock must be valued at cost, market selling value or replacement value, chosen per item each year.",
+      "keywords": ["stock", "inventory", "supplier", "wholesale", "purchase"],
+      "risk": "medium"
+    },
+    {
+      "code": "AU-BUS-ENTERTAINMENT",
+      "label": "P-NONDED",
+      "name": "Entertainment (non-deductible)",
+      "cite": "ITAA 1997 Div 32",
+      "rule": "Entertainment expenses are NOT deductible unless an exception in Subdiv 32-B applies, or the cost is subject to FBT.",
+      "never_deductible": ["Business lunches and dinners with clients", "Tickets to sporting or cultural events", "Golf days and corporate boxes"],
+      "exceptions": ["In-house dining facilities", "Seminars of at least 4 hours where entertainment is incidental", "Food provided to an employee that is subject to FBT"],
+      "keywords": ["restaurant", "cafe", "bar", "pub", "lunch", "dinner", "drinks", "tickets", "golf"],
+      "risk": "high",
+      "risk_note": "This is the most commonly misclassified business expense. Coding a client dinner to 'Meals' or 'Marketing' does not make it deductible."
+    },
+    {
+      "code": "AU-BUS-FINES",
+      "label": "P-NONDED",
+      "name": "Fines and penalties (non-deductible)",
+      "cite": "ITAA 1997 s 26-5",
+      "rule": "Penalties or fines imposed by an Australian or foreign government body are never deductible.",
+      "keywords": ["fine", "infringement", "speeding", "parking fine", "penalty"],
+      "risk": "low"
+    }
+  ]
+}

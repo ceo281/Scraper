@@ -1,0 +1,228 @@
+{
+  "jurisdiction": "US",
+  "year": "2025",
+  "period_start": "2025-01-01",
+  "period_end": "2025-12-31",
+  "verification": { "status": "unverified", "reviewer": null, "reviewed_at": null },
+  "legislative_note": "Amended by the One Big Beautiful Bill Act, Pub. L. 119-21, enacted 4 July 2025, effective for tax years beginning after 31 December 2024.",
+
+  "ordinary_income_brackets": {
+    "cite": "IRC 1(j); Rev. Proc. 2024-40 as amended by Pub. L. 119-21",
+    "source_url": "https://www.irs.gov/filing/federal-income-tax-rates-and-brackets",
+    "verified": false,
+    "single": [
+      { "from": 0,      "to": 11925,  "rate": 0.10 },
+      { "from": 11925,  "to": 48475,  "rate": 0.12 },
+      { "from": 48475,  "to": 103350, "rate": 0.22 },
+      { "from": 103350, "to": 197300, "rate": 0.24 },
+      { "from": 197300, "to": 250525, "rate": 0.32 },
+      { "from": 250525, "to": 626350, "rate": 0.35 },
+      { "from": 626350, "to": null,   "rate": 0.37 }
+    ],
+    "married_filing_jointly": [
+      { "from": 0,      "to": 23850,  "rate": 0.10 },
+      { "from": 23850,  "to": 96950,  "rate": 0.12 },
+      { "from": 96950,  "to": 206700, "rate": 0.22 },
+      { "from": 206700, "to": 394600, "rate": 0.24 },
+      { "from": 394600, "to": 501050, "rate": 0.32 },
+      { "from": 501050, "to": 751600, "rate": 0.35 },
+      { "from": 751600, "to": null,   "rate": 0.37 }
+    ],
+    "married_filing_separately": [
+      { "from": 0,      "to": 11925,  "rate": 0.10 },
+      { "from": 11925,  "to": 48475,  "rate": 0.12 },
+      { "from": 48475,  "to": 103350, "rate": 0.22 },
+      { "from": 103350, "to": 197300, "rate": 0.24 },
+      { "from": 197300, "to": 250525, "rate": 0.32 },
+      { "from": 250525, "to": 375800, "rate": 0.35 },
+      { "from": 375800, "to": null,   "rate": 0.37 }
+    ],
+    "head_of_household": [
+      { "from": 0,      "to": 17000,  "rate": 0.10 },
+      { "from": 17000,  "to": 64850,  "rate": 0.12 },
+      { "from": 64850,  "to": 103350, "rate": 0.22 },
+      { "from": 103350, "to": 197300, "rate": 0.24 },
+      { "from": 197300, "to": 250500, "rate": 0.32 },
+      { "from": 250500, "to": 626350, "rate": 0.35 },
+      { "from": 626350, "to": null,   "rate": 0.37 }
+    ]
+  },
+
+  "standard_deduction": {
+    "cite": "IRC 63(c) as amended by Pub. L. 119-21 sec. 70102",
+    "verified": false,
+    "single": 15750,
+    "married_filing_jointly": 31500,
+    "married_filing_separately": 15750,
+    "head_of_household": 23625,
+    "additional_age65_or_blind_unmarried": 2000,
+    "additional_age65_or_blind_married_each": 1600,
+    "note": "The OBBBA raised these above the figures originally published in Rev. Proc. 2024-40. Confirm which figures apply before use."
+  },
+
+  "senior_deduction": {
+    "cite": "IRC 63(f) as added by Pub. L. 119-21",
+    "verified": false,
+    "amount_per_qualifying_individual": 6000,
+    "min_age": 65,
+    "phaseout_start_magi_single": 75000,
+    "phaseout_start_magi_mfj": 150000,
+    "phaseout_rate": 0.06,
+    "available_tax_years": ["2025", "2026", "2027", "2028"],
+    "note": "Temporary. Available whether or not the taxpayer itemizes."
+  },
+
+  "self_employment_tax": {
+    "cite": "IRC 1401, 1402; Schedule SE",
+    "verified": false,
+    "net_earnings_factor": 0.9235,
+    "social_security_rate": 0.124,
+    "social_security_wage_base": 176100,
+    "medicare_rate": 0.029,
+    "additional_medicare_rate": 0.009,
+    "additional_medicare_threshold_single": 200000,
+    "additional_medicare_threshold_mfj": 250000,
+    "additional_medicare_threshold_mfs": 125000,
+    "employer_half_deductible": true,
+    "minimum_net_earnings_to_owe": 400
+  },
+
+  "net_investment_income_tax": {
+    "cite": "IRC 1411",
+    "verified": false,
+    "rate": 0.038,
+    "threshold_single": 200000,
+    "threshold_mfj": 250000,
+    "threshold_mfs": 125000,
+    "threshold_hoh": 200000
+  },
+
+  "capital_gains": {
+    "cite": "IRC 1(h)",
+    "verified": false,
+    "long_term_holding_days": 366,
+    "long_term_brackets_single": [
+      { "from": 0,     "to": 48350,  "rate": 0.00 },
+      { "from": 48350, "to": 533400, "rate": 0.15 },
+      { "from": 533400,"to": null,   "rate": 0.20 }
+    ],
+    "long_term_brackets_mfj": [
+      { "from": 0,     "to": 96700,  "rate": 0.00 },
+      { "from": 96700, "to": 600050, "rate": 0.15 },
+      { "from": 600050,"to": null,   "rate": 0.20 }
+    ],
+    "capital_loss_ordinary_offset_limit": 3000,
+    "capital_loss_offset_limit_mfs": 1500,
+    "wash_sale_window_days": 30,
+    "wash_sale_cite": "IRC 1091"
+  },
+
+  "qbi_deduction": {
+    "cite": "IRC 199A",
+    "verified": false,
+    "rate": 0.20,
+    "threshold_single": 197300,
+    "threshold_mfj": 394600,
+    "phase_in_range_single": 50000,
+    "phase_in_range_mfj": 100000,
+    "sstb_fully_phased_out_above_threshold": true,
+    "w2_wage_limit_rate": 0.50,
+    "w2_plus_ubia_rates": { "wages": 0.25, "ubia": 0.025 },
+    "note": "Specified service trades or businesses (health, law, accounting, actuarial science, performing arts, consulting, athletics, financial services, brokerage, and any trade where the principal asset is the reputation or skill of its employees) lose the deduction entirely above the phase-in range."
+  },
+
+  "depreciation": {
+    "section_179": {
+      "cite": "IRC 179 as amended by Pub. L. 119-21",
+      "verified": false,
+      "limit": 2500000,
+      "phaseout_threshold": 4000000,
+      "suv_limit": 31300,
+      "note": "Limited to taxable income from the active conduct of a trade or business. Excess carries forward."
+    },
+    "bonus_depreciation": {
+      "cite": "IRC 168(k) as amended by Pub. L. 119-21",
+      "verified": false,
+      "rate": 1.00,
+      "effective_for_property_acquired_after": "2025-01-19",
+      "note": "The OBBBA restored 100% bonus depreciation permanently for qualified property acquired after 19 January 2025. Property acquired before that date remains on the 40% phase-down schedule."
+    },
+    "listed_property_business_use_threshold": 0.50
+  },
+
+  "standard_mileage_rates": {
+    "cite": "IRC 162, 213, 217, 170; Notice 2025-5",
+    "verified": false,
+    "business": 0.70,
+    "medical": 0.21,
+    "moving_armed_forces_only": 0.21,
+    "charitable": 0.14,
+    "note": "The charitable rate is set by statute, not indexed. Moving expense deduction is suspended for all taxpayers except active duty armed forces."
+  },
+
+  "salt_cap": {
+    "cite": "IRC 164(b)(6) as amended by Pub. L. 119-21",
+    "verified": false,
+    "cap": 40000,
+    "cap_mfs": 20000,
+    "phasedown_magi_threshold": 500000,
+    "phasedown_rate": 0.30,
+    "floor": 10000,
+    "note": "Raised from $10,000 by the OBBBA for 2025. Reduced by 30 cents per dollar of MAGI above $500,000, but never below $10,000."
+  },
+
+  "tips_and_overtime_deductions": {
+    "cite": "IRC 224, 225 as added by Pub. L. 119-21",
+    "verified": false,
+    "qualified_tips_limit": 25000,
+    "qualified_overtime_limit_single": 12500,
+    "qualified_overtime_limit_mfj": 25000,
+    "phaseout_start_magi_single": 150000,
+    "phaseout_start_magi_mfj": 300000,
+    "available_tax_years": ["2025", "2026", "2027", "2028"],
+    "note": "Below-the-line deductions available whether or not the taxpayer itemizes. Does not reduce self-employment or payroll tax."
+  },
+
+  "estimated_tax": {
+    "cite": "IRC 6654; Form 1040-ES",
+    "verified": false,
+    "due_dates": [
+      { "period": "Q1", "covers": "Jan 1 to Mar 31", "due": "04-15" },
+      { "period": "Q2", "covers": "Apr 1 to May 31", "due": "06-15" },
+      { "period": "Q3", "covers": "Jun 1 to Aug 31", "due": "09-15" },
+      { "period": "Q4", "covers": "Sep 1 to Dec 31", "due": "01-15", "due_year_offset": 1 }
+    ],
+    "safe_harbor_prior_year_rate": 1.00,
+    "safe_harbor_prior_year_rate_high_agi": 1.10,
+    "high_agi_threshold": 150000,
+    "high_agi_threshold_mfs": 75000,
+    "safe_harbor_current_year_rate": 0.90,
+    "de_minimis_no_penalty_balance": 1000,
+    "note": "Quarters are NOT equal calendar quarters. Q2 covers two months and Q3 covers three. This trips up almost every first-time filer."
+  },
+
+  "filing_deadlines": {
+    "individual_return": "04-15",
+    "extension_form": "4868",
+    "extended_return": "10-15",
+    "note": "An extension extends the time to FILE, never the time to PAY. Interest and the failure-to-pay penalty run from the original due date regardless."
+  },
+
+  "information_reporting": {
+    "form_1099_nec_threshold": 600,
+    "form_1099_k_threshold_amount": 20000,
+    "form_1099_k_threshold_transactions": 200,
+    "verified": false,
+    "note": "The OBBBA restored the $20,000 and 200 transaction 1099-K threshold, reversing the $600 threshold. Confirm which threshold applies to the year in question before relying on it."
+  },
+
+  "record_retention": {
+    "cite": "IRC 6501",
+    "general_years": 3,
+    "substantial_omission_years": 6,
+    "substantial_omission_trigger": 0.25,
+    "no_return_or_fraud": "unlimited",
+    "employment_tax_years": 4,
+    "property_records": "until the period of limitations expires for the year the property is disposed of"
+  }
+}

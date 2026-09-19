@@ -1,0 +1,38 @@
+{
+  "jurisdiction": "AU",
+  "authority": "Australian Taxation Office (ATO) / Commonwealth of Australia",
+  "pack_version": "0.1.0",
+  "schema_version": 1,
+  "scope": {
+    "in_scope": [
+      "Resident individual income tax (ITAA 1936 / ITAA 1997)",
+      "Sole trader business income and general deductions (s 8-1 ITAA 1997)",
+      "GST and Business Activity Statements (A New Tax System (Goods and Services Tax) Act 1999)",
+      "PAYG instalments and PAYG withholding (Sch 1 TAA 1953)",
+      "Capital gains tax - individual, basic discount only (Div 115 ITAA 1997)",
+      "Work-related expense substantiation (Div 900 ITAA 1997)"
+    ],
+    "out_of_scope": [
+      "Company, trust and partnership returns",
+      "SMSF and superannuation fund returns",
+      "Fringe Benefits Tax (FBTAA 1986)",
+      "Non-resident and temporary resident regimes",
+      "Small business CGT concessions (Div 152) - flagged for adviser only",
+      "State taxes: payroll tax, land tax, stamp duty",
+      "Research and Development tax incentive"
+    ]
+  },
+  "verification": {
+    "status": "unverified",
+    "note": "NO FIGURE IN THIS PACK HAS BEEN CONFIRMED AGAINST A PRIMARY SOURCE. Every entry carries a cite and source_url. A registered tax agent must verify and sign off each rate file before the pack is used for any real lodgment or advice. Run `python -m taxsys.tools.verify` to list what is outstanding.",
+    "reviewer": null,
+    "reviewed_at": null,
+    "signoff_required_by": "Registered tax agent (Tax Agent Services Act 2009)"
+  },
+  "period": {
+    "type": "financial_year",
+    "starts": "07-01",
+    "ends": "06-30",
+    "label_format": "FY{start}-{end_short}"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "jurisdiction": "AU",
+  "name": "Tax position optimisation and anti-avoidance",
+  "verification": { "status": "unverified", "reviewer": null, "reviewed_at": null },
+
+  "framing": {
+    "principle": "Ordering affairs to attract less tax is lawful. Ordering affairs for the dominant purpose of obtaining a tax benefit is not.",
+    "authority": "FCT v Spotless Services Ltd (1996) 186 CLR 404; ITAA 1936 Part IVA",
+    "product_rule": "This system surfaces concessions Parliament legislated, applied to facts the user actually has. It does not construct schemes. Anything that requires a step whose only purpose is tax is flagged and blocked, not suggested."
+  },
+
+  "anti_avoidance": [
+    {
+      "id": "part_iva",
+      "name": "General anti-avoidance rule",
+      "cite": "ITAA 1936 Part IVA (ss 177A-177G)",
+      "test": "A scheme, a tax benefit, and a dominant purpose of obtaining that benefit, judged on the eight factors in s 177D(2).",
+      "consequence": "The Commissioner may cancel the tax benefit and apply a penalty of up to 50% of the scheme shortfall under s 284-145 Sch 1 TAA 1953.",
+      "eight_factors": [
+        "the manner in which the scheme was entered into or carried out",
+        "the form and substance of the scheme",
+        "the time at which the scheme was entered into and the length of the period during which it was carried out",
+        "the result that would be achieved by the scheme but for Part IVA",
+        "any change in the financial position of the relevant taxpayer",
+        "any change in the financial position of connected persons",
+        "any other consequence for the taxpayer or connected persons",
+        "the nature of any connection between the taxpayer and connected persons"
+      ]
+    },
+    { "id": "promoter_penalties", "name": "Promoter penalty regime", "cite": "TAA 1953 Sch 1 Div 290", "note": "Marketing or encouraging a tax exploitation scheme attracts civil penalties against the PROMOTER, not only the taxpayer. Penalties were significantly increased in 2024. This is the single largest legal risk in building a product that advertises aggressive tax outcomes." },
+    { "id": "personal_services_income", "name": "Personal services income", "cite": "ITAA 1997 Part 2-42 (Div 84-87)", "note": "Income mainly a reward for an individual's personal efforts or skills is attributed to that individual regardless of the entity that earned it, unless a personal services business test is passed. Kills most 'incorporate to split income' ideas." },
+    { "id": "s100a", "name": "Trust reimbursement agreements", "cite": "ITAA 1936 s 100A", "note": "Where a beneficiary is presently entitled to trust income under an agreement where someone else gets the benefit, the trustee is taxed at the top marginal rate. No time limit on amendment. See TR 2022/4 and PCG 2022/2." },
+    { "id": "div7a", "name": "Private company loans to shareholders", "cite": "ITAA 1936 Div 7A", "note": "Loans, payments or forgiven debts from a private company to a shareholder or associate are deemed unfranked dividends unless a complying loan agreement is in place by the lodgment day." }
+  ],
+
+  "strategies": [
+    {
+      "id": "au_timing_prepay",
+      "name": "Prepay deductible expenses before 30 June",
+      "cite": "ITAA 1936 s 82KZM; ITAA 1997 s 8-1",
+      "mechanism": "Small business entities and individuals incurring non-business expenditure may deduct prepayments in full where the service period does not exceed 12 months and ends in the next income year.",
+      "applies_to": ["individual", "sole_trader"],
+      "risk": "low",
+      "anti_avoidance_flags": [],
+      "conditions": ["The expense must be genuinely incurred, not merely accrued.", "The eligible service period must not exceed 12 months.", "The taxpayer must actually have the cash. Borrowing to prepay rarely improves the net position."],
+      "caveat": "This is timing, not permanent savings. It is only worth doing if the marginal rate this year exceeds next year's."
+    },
+    {
+      "id": "au_carry_forward_super",
+      "name": "Carry-forward unused concessional superannuation cap",
+      "cite": "ITAA 1997 s 291-20",
+      "mechanism": "Unused concessional cap from the previous 5 financial years can be used in the current year if total superannuation balance at 30 June of the prior year was below $500,000.",
+      "applies_to": ["individual", "sole_trader"],
+      "risk": "low",
+      "anti_avoidance_flags": [],
+      "conditions": ["Total super balance under $500,000 at the prior 30 June.", "Contribution must be received by the fund before 30 June.", "A valid notice of intent to claim (s 290-170) must be lodged and acknowledged before lodging the return."],
+      "caveat": "Contributions are taxed at 15% inside the fund, or 30% if Division 293 applies. The benefit is the difference between the marginal rate and the contributions tax, less the loss of access to the money until preservation age."
+    },
+    {
+      "id": "au_cgt_discount_timing",
+      "name": "Hold a CGT asset past 12 months",
+      "cite": "ITAA 1997 Div 115",
+      "mechanism": "Individuals holding a CGT asset for at least 12 months qualify for a 50% discount on the capital gain.",
+      "applies_to": ["individual"],
+      "risk": "low",
+      "anti_avoidance_flags": [],
+      "conditions": ["Measured from the day after acquisition to the CGT event, so 366 days.", "The CGT event date for a contract sale is the contract date, not settlement."],
+      "caveat": "Never hold a falling asset purely for the discount. A 50% discount on a gain you no longer have is worth nothing."
+    },
+    {
+      "id": "au_loss_harvesting",
+      "name": "Realise capital losses to offset realised gains",
+      "cite": "ITAA 1997 Div 102; Part IVA considerations",
+      "mechanism": "Capital losses offset capital gains in the same year and carry forward indefinitely. Losses are applied BEFORE the 50% discount, so apply them to undiscounted gains first.",
+      "applies_to": ["individual", "sole_trader"],
+      "risk": "medium",
+      "anti_avoidance_flags": ["part_iva"],
+      "conditions": ["The disposal must be genuine, with a real change in beneficial ownership."],
+      "caveat": "Selling and immediately repurchasing the same asset is a wash sale. TA 2008/7 states the ATO treats these as Part IVA schemes. This system will flag a repurchase of the same asset within a short window and will not present it as a strategy.",
+      "blocked_pattern": "wash_sale"
+    },
+    {
+      "id": "au_home_office_method_choice",
+      "name": "Compare fixed-rate and actual-cost working from home methods",
+      "cite": "PCG 2023/1",
+      "mechanism": "Calculate the deduction under both the 70 cents per hour fixed rate and the actual-cost method, and claim the higher, provided the records exist for the method chosen.",
+      "applies_to": ["individual"],
+      "risk": "low",
+      "anti_avoidance_flags": [],
+      "conditions": ["Fixed rate requires a record of total actual hours for the year.", "Actual cost requires receipts and a defensible work-use percentage for each cost."],
+      "caveat": "Actual cost usually wins for heavy home users with a dedicated room, but the record-keeping burden is real and the ATO reviews it."
+    },
+    {
+      "id": "au_spouse_investment_ownership",
+      "name": "Hold new income-producing investments in the lower-earning spouse's name",
+      "cite": "ITAA 1997 s 6-5; Part IVA considerations",
+      "mechanism": "Investment income is taxed to the legal and beneficial owner. Acquiring a NEW asset in the lower-marginal-rate spouse's name reduces household tax.",
+      "applies_to": ["individual"],
+      "risk": "medium",
+      "anti_avoidance_flags": ["part_iva"],
+      "conditions": ["Must apply to a genuine new acquisition with the purchaser's own funds.", "Beneficial ownership must actually follow legal ownership."],
+      "caveat": "Transferring an EXISTING asset to a spouse is a CGT event at market value and usually triggers stamp duty. It is a different transaction with a different answer. This system will not suggest transferring existing assets.",
+      "requires_professional_advice": true
+    },
+    {
+      "id": "au_instant_asset_write_off",
+      "name": "Small business instant asset write-off",
+      "cite": "ITAA 1997 Subdiv 328-D",
+      "mechanism": "A small business entity may immediately deduct the business portion of an eligible depreciating asset costing less than the threshold, if first used or installed ready for use in the income year.",
+      "applies_to": ["sole_trader", "business"],
+      "risk": "low",
+      "anti_avoidance_flags": [],
+      "conditions": ["Aggregated turnover below the threshold.", "Asset first used or installed ready for use in the year, not merely ordered or paid for.", "Threshold applies per asset."],
+      "caveat": "Do not buy equipment you do not need for a deduction. A deduction returns your marginal rate, so a $20,000 purchase at a 37% marginal rate still costs $12,600 in cash. Confirm the threshold in force for the year before relying on it."
+    }
+  ],
+
+  "blocked_patterns": [
+    { "id": "wash_sale", "reason": "TA 2008/7. Disposing of an asset and reacquiring substantially the same asset to crystallise a loss without a genuine change in economic exposure." },
+    { "id": "round_robin_dividend", "reason": "Circular distributions with no commercial purpose. Part IVA and s 177EA." },
+    { "id": "service_trust_overcharge", "reason": "Service fees beyond commercially realistic rates. See TR 2006/2 and PCG 2006/2." },
+    { "id": "private_expense_recharacterisation", "reason": "Coding a private expense to a business account does not change its character. This is fraud, not planning." },
+    { "id": "income_splitting_psi", "reason": "Div 84-87 attributes personal services income to the individual regardless of structure." }
+  ]
+}

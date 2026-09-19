@@ -1,0 +1,112 @@
+{
+  "jurisdiction": "US",
+  "name": "Tax position optimisation and anti-avoidance",
+  "verification": { "status": "unverified", "reviewer": null, "reviewed_at": null },
+
+  "framing": {
+    "principle": "A taxpayer may arrange affairs to keep taxes as low as possible. There is no patriotic duty to increase one's taxes.",
+    "authority": "Gregory v. Helvering, 293 U.S. 465 (1935); Helvering v. Gregory, 69 F.2d 809 (2d Cir. 1934) per Learned Hand J",
+    "limit": "That same pair of cases created the business purpose and substance over form doctrines. A transaction with no purpose beyond tax reduction is disregarded.",
+    "product_rule": "This system surfaces statutory provisions applied to facts the user actually has. It does not construct transactions. Any position requiring a step with no independent economic purpose is flagged and blocked."
+  },
+
+  "anti_avoidance": [
+    { "id": "economic_substance", "name": "Codified economic substance doctrine", "cite": "IRC 7701(o)", "test": "A transaction has economic substance only if it changes the taxpayer's economic position in a meaningful way apart from tax effects, AND the taxpayer has a substantial purpose apart from tax effects. Both prongs are required.", "consequence": "A 20% strict liability penalty under IRC 6662(b)(6), rising to 40% if the transaction is not adequately disclosed. Reasonable cause is NOT a defence." },
+    { "id": "substance_over_form", "name": "Substance over form", "cite": "Commissioner v. Court Holding Co., 324 U.S. 331 (1945)", "note": "The tax consequences follow the substance of a transaction, not the labels the parties attach to it." },
+    { "id": "step_transaction", "name": "Step transaction doctrine", "note": "Formally separate steps may be collapsed into a single transaction where they are prearranged parts of a single scheme. Tested by the binding commitment, end result, and mutual interdependence tests." },
+    { "id": "assignment_of_income", "name": "Assignment of income", "cite": "Lucas v. Earl, 281 U.S. 111 (1930)", "note": "Income is taxed to the person who earns it. Redirecting a payment to a lower-bracket family member or an entity does not shift the tax." },
+    { "id": "hobby_loss", "name": "Activity not engaged in for profit", "cite": "IRC 183; Reg 1.183-2(b)", "note": "Losses from an activity not carried on for profit are disallowed. Nine factors apply. A presumption of profit motive arises if the activity was profitable in 3 of 5 consecutive years, or 2 of 7 for horse activities. Because IRC 67(g) suspends miscellaneous itemized deductions, hobby expenses are currently fully non-deductible while hobby income remains fully taxable." },
+    { "id": "reportable_transactions", "name": "Reportable transaction disclosure", "cite": "IRC 6011, 6111, 6112; Form 8886", "note": "Listed transactions, confidential transactions, contractual protection transactions, loss transactions and transactions of interest require disclosure. The penalty under IRC 6707A applies for non-disclosure even where the position is ultimately sustained." },
+    { "id": "preparer_penalties", "name": "Preparer and promoter penalties", "cite": "IRC 6694, 6700, 6701; Circular 230", "note": "IRC 6700 penalises promoting abusive tax shelters and IRC 6701 penalises aiding and abetting understatement. Software that markets aggressive positions can be drawn into these provisions. This is the principal legal reason this product does not present loophole framing." }
+  ],
+
+  "strategies": [
+    {
+      "id": "us_retirement_solo401k",
+      "name": "Solo 401(k) or SEP-IRA contribution",
+      "cite": "IRC 401(k), 408(k), 415(c)",
+      "mechanism": "A self-employed taxpayer may contribute as both employee and employer, deducting the employer portion against self-employment income.",
+      "applies_to": ["sole_trader", "single_member_llc"],
+      "risk": "low",
+      "anti_avoidance_flags": [],
+      "conditions": ["Solo 401(k) must be established by the end of the tax year for employee deferrals, though SECURE 2.0 permits establishing a plan up to the return due date for employer contributions.", "A SEP-IRA may be established and funded up to the extended due date of the return.", "Employer contribution is limited to 25% of net self-employment income after the SE tax adjustment."],
+      "caveat": "This is deferral, not forgiveness. It also does NOT reduce self-employment tax, only income tax. The benefit is the spread between the current marginal rate and the eventual withdrawal rate, plus tax-free compounding."
+    },
+    {
+      "id": "us_qbi_optimisation",
+      "name": "Manage income below the QBI threshold",
+      "cite": "IRC 199A",
+      "mechanism": "Taxable income below the threshold gives the full 20% deduction without any wage or property limitation, and without the SSTB exclusion. Reducing taxable income across the threshold can be worth far more than the dollars deferred.",
+      "applies_to": ["sole_trader", "single_member_llc"],
+      "risk": "low",
+      "anti_avoidance_flags": [],
+      "conditions": ["The taxpayer must be just above the threshold for this to matter.", "Legitimate reducers include retirement contributions, HSA contributions and accelerating deductible expenses."],
+      "caveat": "For a specified service trade or business the deduction vanishes completely above the phase-in range, so the effective marginal rate in that band can exceed 50%. Model it before acting."
+    },
+    {
+      "id": "us_hsa",
+      "name": "Health savings account contribution",
+      "cite": "IRC 223",
+      "mechanism": "Deductible going in, tax-free growth, and tax-free coming out for qualified medical expenses. The only triple-tax-advantaged account in the Code.",
+      "applies_to": ["individual", "sole_trader"],
+      "risk": "low",
+      "anti_avoidance_flags": [],
+      "conditions": ["Must be covered by a qualifying high deductible health plan and no disqualifying other coverage.", "Contributions may be made up to the return due date without extensions."],
+      "caveat": "Requires an HDHP, which is a real cost if medical needs are high. The tax benefit does not outweigh a badly matched health plan."
+    },
+    {
+      "id": "us_loss_harvesting",
+      "name": "Harvest capital losses",
+      "cite": "IRC 1211, 1212, 1091",
+      "mechanism": "Realised losses offset realised gains, and up to $3,000 of excess loss offsets ordinary income each year, with the remainder carrying forward indefinitely.",
+      "applies_to": ["individual"],
+      "risk": "medium",
+      "anti_avoidance_flags": ["wash_sale"],
+      "conditions": ["The sale must be a genuine disposition."],
+      "caveat": "IRC 1091 disallows the loss if substantially identical securities are acquired within 30 days before or after the sale, in any account including an IRA. The disallowed loss adds to the basis of the replacement, except in an IRA where it is permanently lost. This system flags repurchases inside the window and will not present them as a strategy.",
+      "blocked_pattern": "wash_sale"
+    },
+    {
+      "id": "us_accountable_plan",
+      "name": "Adopt an accountable plan for reimbursements",
+      "cite": "IRC 62(c); Reg 1.62-2",
+      "mechanism": "Reimbursements under an accountable plan are deductible to the business and excluded from the recipient's income entirely.",
+      "applies_to": ["business", "s_corp"],
+      "risk": "low",
+      "anti_avoidance_flags": [],
+      "conditions": ["A business connection must exist", "Adequate accounting to the payer within a reasonable time", "Return of any excess within a reasonable time"],
+      "caveat": "Without a written plan and actual substantiation, reimbursements become wages and are subject to payroll tax. Particularly valuable while IRC 67(g) blocks unreimbursed employee expenses."
+    },
+    {
+      "id": "us_de_minimis_safe_harbor",
+      "name": "Elect the de minimis safe harbor for tangible property",
+      "cite": "Reg 1.263(a)-1(f)",
+      "mechanism": "Expense rather than capitalise items under $2,500 per invoice or item (or $5,000 with an applicable financial statement).",
+      "applies_to": ["sole_trader", "business"],
+      "risk": "low",
+      "anti_avoidance_flags": [],
+      "conditions": ["A written accounting policy must be in place at the BEGINNING of the tax year.", "The election is made annually on a statement attached to a timely filed return."],
+      "caveat": "The written policy must pre-date the year. Adopting it retroactively in March for the prior year does not work."
+    },
+    {
+      "id": "us_estimated_safe_harbor",
+      "name": "Use the prior year safe harbor for estimated tax",
+      "cite": "IRC 6654(d)(1)(B)",
+      "mechanism": "Paying 100% of the prior year's total tax (110% if prior year AGI exceeded $150,000) avoids the underpayment penalty regardless of how much the current year's income grows.",
+      "applies_to": ["individual", "sole_trader"],
+      "risk": "low",
+      "anti_avoidance_flags": [],
+      "conditions": ["The prior year must have been a full 12 month year with a filed return."],
+      "caveat": "This avoids the PENALTY, not the tax. A large balance is still due on 15 April. In a sharply rising income year this improves cash flow but creates a bill the taxpayer must be ready for."
+    }
+  ],
+
+  "blocked_patterns": [
+    { "id": "wash_sale", "reason": "IRC 1091. Loss disallowed on reacquisition of substantially identical securities within 30 days either side." },
+    { "id": "personal_expense_recharacterisation", "reason": "Coding a personal expense to a business account does not change its character under IRC 262. This is a false return, not planning." },
+    { "id": "sham_entity", "reason": "Entities formed with no business purpose beyond tax reduction are disregarded under substance over form and IRC 7701(o)." },
+    { "id": "unreasonable_scorp_salary", "reason": "S corporation shareholder-employees must take reasonable compensation before distributions. Understating salary to avoid payroll tax is a standard audit adjustment. See Rev. Rul. 74-44 and David E. Watson PC v. United States." },
+    { "id": "hobby_as_business", "reason": "IRC 183. Reporting a personal activity as a business to deduct losses. The nine-factor test controls, not the taxpayer's label." },
+    { "id": "conservation_easement_syndication", "reason": "Listed transaction under Notice 2017-10. Syndicated conservation easements are subject to promoter investigation and IRC 6707A penalties." }
+  ]
+}
