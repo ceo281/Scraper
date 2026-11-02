@@ -34,10 +34,11 @@ def load() -> pd.DataFrame:
 
 def main() -> None:
     ap = argparse.ArgumentParser(prog="cup_predictor")
-    ap.add_argument("command", choices=["build", "backtest", "predict"])
+    ap.add_argument("command", choices=["build", "backtest", "predict", "simulate"])
     ap.add_argument("--year", type=int, default=2026)
     ap.add_argument("--first", type=int, default=1990)
     ap.add_argument("--l2", type=float, default=100.0)  # heavy shrinkage: least-bad in backtest
+    ap.add_argument("--runs", type=int, default=10_000)
     a = ap.parse_args()
     pd.set_option("display.width", 200)
 
@@ -65,6 +66,20 @@ def main() -> None:
     if race.empty:
         raise SystemExit(f"no field for {a.year}: run build with --year {a.year}")
     m = CupModel(l2=a.l2).fit(train)
+    if a.command == "simulate":
+        from .simulate import FEATURES, sensitivity, simulate
+        sim = simulate(m, train, race, a.runs).sort_values("win_pct", ascending=False)
+        print(f"{a.runs:,} simulated races, factor weights redrawn from their uncertainty each run.\n")
+        fmt = "{:.1%}".format
+        print(sim.assign(win_pct=sim.win_pct.map(fmt), top3_pct=sim.top3_pct.map(fmt),
+                         chance_range=[f"{l:.1%} - {h:.1%}" for l, h in zip(sim.chance_p10, sim.chance_p90)])
+              [["horse", "weight", "barrier", "wins", "win_pct", "top3_pct", "chance_range"]].to_string(index=False))
+        sens = sensitivity(m, train, race, a.runs)
+        print("\nWhich factor matters: average change in win % across horses when it is switched off")
+        moves = {f: (sens[f"no_{f}"] - sens["all_factors"]).abs().mean() for f in FEATURES}
+        for f, v in sorted(moves.items(), key=lambda kv: -kv[1]):
+            print(f"  {f:16s} {v:.2%}")
+        return
     race["win_prob"] = m.predict(race)
     race["fair_odds"] = 1 / race["win_prob"]
     out = race.sort_values("win_prob", ascending=False)
