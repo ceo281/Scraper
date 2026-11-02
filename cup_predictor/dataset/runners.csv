@@ -1,0 +1,878 @@
+year,horse,origin,bred_north,trainer,jockey,weight,barrier,place,field_size
+1990,Kingston Rule,,,Bart Cummings,Darren Beadman,,,1.0,24
+1990,The Phantom,,,M P Parker,Grant Cooksley,,,2.0,24
+1990,Mr. Brooker,,,Peter Hurdle,Greg Childs,,,3.0,24
+1990,Na Botto,,,P Hollinshead,Larry Cassidy,,,4.0,24
+1990,Mount Olympus,,,David A. Hayes,M Carson,,,5.0,24
+1990,Aquidity,,,D Walsh,David Walsh,,,6.0,24
+1990,Savage Toss,,,Lee Freedman,Brian Hibberd,,,7.0,24
+1990,Flying Luskin,,,Trevor McKee,Peter Johnson,,,8.0,24
+1990,La Tristia,,,Bart Cummings,Steven King,,,9.0,24
+1990,Our Magic Man,,,J Lee,Kevin Moses,,,10.0,24
+1990,Sydeston,,,Bob Hoysted,Mick Dittman,,,11.0,24
+1990,Just A Dancer,,,Graeme Rogerson,Jim Cassidy,,,12.0,24
+1990,Chaleyer,,,F Lewis,Shane Dye,,,13.0,24
+1990,Ali Boy,,,M Phillips,Harry White,,,14.0,24
+1990,Shuzohra,,,Errol Skelton,Larry Olsen,,,15.0,24
+1990,Tawriffic,,,D McNabb,Alf Matthews,,,16.0,24
+1990,Rainbow Myth,,,Ralph Manning,Michael Clarke,,,17.0,24
+1990,Dalraffin,,,E Murray,Kevin Forrester,,,18.0,24
+1990,Water Boatman,,,David Hayes,Peter Hutchinson,,,19.0,24
+1990,Frontier Boy,,,Lee Freedman,Damien Oliver,,,20.0,24
+1990,Betoota,,,Wayne Walters,R Heffernan,,,21.0,24
+1990,Rising Fear,,,L Pickering,C Browell,,,22.0,24
+1990,Selwyn's Mate,,,Michael Moroney,B Werner,,,23.0,24
+1990,Donegal Mist,,,G Maynes,J Marshall,,,24.0,24
+1991,Let's Elope,NZ,0.0,Bart Cummings,Steven King,51.0,,1.0,24
+1991,Shiva's Revenge,NZ,0.0,Bart Cummings,Shane Dye,53.5,,2.0,24
+1991,Magnolia Hall,NZ,0.0,Helen Page,Brian York,52.5,,3.0,24
+1991,Super Impose,NZ,0.0,Lee Freedman,Darren Beadman,60.0,,4.0,24
+1991,Ivory Way,USA,1.0,David A. Hayes,Michael Clarke,49.5,,5.0,24
+1991,Rasheek,USA,1.0,David A. Hayes,Peter Hutchinson,51.5,,6.0,24
+1991,Al Maheb,USA,1.0,David Hayes,Darren Gauci,56.5,,7.0,24
+1991,Just A Dancer,NZ,0.0,Graeme Rogerson,Jim Cassidy,56.5,,8.0,24
+1991,Castletown,NZ,0.0,Paddy Busuttin,Noel Harris,57.0,,9.0,24
+1991,Grooming,,0.0,Lee Freedman,Damien Oliver,51.5,,10.0,24
+1991,Maharajah,NZ,0.0,T J Smith,Malcolm Johnston,49.5,,11.0,24
+1991,Moods,,0.0,A J Marshall,Bruce Compton,49.5,,12.0,24
+1991,Lord Revenir,NZ,0.0,Bart Cummings,Grant Cooksley,54.0,,13.0,24
+1991,Sydeston,,0.0,Bob Hoysted,Mick Dittman,57.5,,14.0,24
+1991,Cool Credit,,0.0,George Hanlon,Kevin Forrester,50.5,,15.0,24
+1991,Alphabel,,0.0,David A. Hayes,Glen Darrington,53.0,,16.0,24
+1991,Diego,NZ,0.0,Dave O'Sullivan,Lance O'Sullivan,52.5,,17.0,24
+1991,Te Akau Pearl,NZ,0.0,Roger James,Jim Collett,50.0,,18.0,24
+1991,Nayrizi,IRE,1.0,Pat Hyland,Greg Hall,54.0,,19.0,24
+1991,Dr Grace,NZ,0.0,Dr G Chapman,Kevin Moses,56.0,,20.0,24
+1991,Pontiac Lass,NZ,0.0,Murray Baker,Tony Allan,49.5,,21.0,24
+1991,Weekend Delight,NZ,0.0,Bart Cummings,Greg Childs,50.5,,22.0,24
+1991,Rural Prince,NZ,0.0,Graeme Sanders,Larry Cassidy,49.5,,23.0,24
+1991,Sunshine Sally,,0.0,George Hanlon,Patrick Payne,48.0,,24.0,24
+1992,Subzero,AUS,0.0,Lee Freedman,Greg Hall,,,1.0,21
+1992,Veandercross,NZ,0.0,John Wheeler,Shane Dye,,,2.0,21
+1992,Castletown,NZ,0.0,Paddy Busuttin,Noel Harris,,,3.0,21
+1992,Eurostar,NZ,0.0,Graeme Rogerson,Kevin Moses,,,4.0,21
+1992,Cavallieri,NZ,0.0,Laurie Laxon,Simon Marshall,,,5.0,21
+1992,Sir Winston,NZ,0.0,Dr G Chapman,Patrick Payne,,,6.0,21
+1992,Star Of The Realm,AUS,0.0,John F. Meagher,Steven King,,,7.0,21
+1992,Ali Boy,NZ,0.0,Mark Phillips,R Caddigan,,,8.0,21
+1992,London Bridge,NZ,0.0,Bart Cummings,David Taggart,,,9.0,21
+1992,Big Barron,NZ,0.0,Colin Anderson,Darren Gauci,,,10.0,21
+1992,Aquidity,NZ,0.0,T J Smith,Chris Munce,,,11.0,21
+1992,Better Loosen Up,AUS,0.0,David A. Hayes,Michael Clarke,,,12.0,21
+1992,Val D'Arno,USA,1.0,F W Mitchell,P Johnson,,,13.0,21
+1992,Donegal Mist,NZ,0.0,Graeme Rogerson,Brian York,,,14.0,21
+1992,Super Impose,NZ,0.0,Lee Freedman,Mick Dittman,,,15.0,21
+1992,Te Akau Nick,NZ,0.0,Gai Waterhouse,Larry Cassidy,,,16.0,21
+1992,Sky Flyer,NZ,0.0,B F Deacon,Shane Tronerud,,,17.0,21
+1992,Brave Expectations,AUS,0.0,David A. Hayes,Michael Carson,,,18.0,21
+1992,Dr Grace,NZ,0.0,Dr G Chapman,Larry Olsen,,,19.0,21
+1992,Maharajah,NZ,0.0,T J Smith,Craig Dinn,,,20.0,21
+1992,Heroicity,AUS,0.0,Lee Freedman,Damien Oliver,,,21.0,21
+1993,Vintage Crop,,,Dermot Weld,Michael Kinane,,,1.0,24
+1993,Te Akau Nick,,,Gai Waterhouse,Robert Vance,,,2.0,24
+1993,Mercator,,,Royce Dowling,Chris Johnson,,,3.0,24
+1993,Great Vintage,,,Bart Cummings,Steven King,,,4.0,24
+1993,Frontier Boy,,,Bart Cummings,Darren Beadman,,,5.0,24
+1993,Tennessee Jack,,,Bart Cummings,Damien Oliver,,,6.0,24
+1993,Maraakiz,,,David Hayes,Michael Clarke,,,7.0,24
+1993,The Phantom,,,Noel Eales,Jim Cassidy,,,8.0,24
+1993,Drum Taps,,,Lord Huntingdon,Frankie Dettori,,,9.0,24
+1993,Castletown,,,Paddy Busuttin,Noel Harris,,,10.0,24
+1993,Azzaam,,,David Hayes,Larry Cassidy,,,11.0,24
+1993,Cavallieri,,,Laurie Laxon,Kevin Moses,,,12.0,24
+1993,Fraar,,,David Hayes,Darren Gauci,,,13.0,24
+1993,Our Pompeii,,,George Hanlon,Mick Dittman,,,14.0,24
+1993,Subzero,,,Lee Freedman,Greg Hall,,,15.0,24
+1993,Young Pirate,,,D McNabb,Alf Matthews,,,16.0,24
+1993,Ultimate Aim,,,Colin Jillings,Patrick Payne,,,17.0,24
+1993,Field Officer,,,George Hanlon,T Jackman,,,18.0,24
+1993,Dancing Lord,,,M Pearson,Harry White,,,19.0,24
+1993,Slight Chance,,,Bob Thomsen,John Marshall,,,20.0,24
+1993,Air Seattle,,,Clarry Conners,Shane Dye,,,21.0,24
+1993,Silk Ali,,,Bob Thomsen,Grant Cooksley,,,22.0,24
+1993,Diamond Bases,,,Tony Vasil,B Clements,,,23.0,24
+1993,Our Tristalight,,,Bart Cummings,Greg Childs,,,24.0,24
+1994,Jeune,,,David A. Hayes,Wayne Harris,56.5,,1.0,24
+1994,Paris Lane,,,Lee Freedman,Damien Oliver,55.5,,2.0,24
+1994,Oompala,,,John Wallace,Larry Cassidy,52.5,,3.0,24
+1994,Double Take,,,Royce Dowling,Greg Childs,52.0,,4.0,24
+1994,Alcove,,,Tom Hughes (Junior),Patrick Payne,51.0,,5.0,24
+1994,Hear That Bell,,,John F. Meagher,Steven King,54.0,,6.0,24
+1994,Vintage Crop,,,Dermot Weld,Michael Kinane,60.0,,7.0,24
+1994,Grass Valley,,,Colin Anderson,Alf Matthews,50.5,,8.0,24
+1994,Top Rating,,,David A. Hayes,Greg Hall,52.5,,9.0,24
+1994,Starstruck,,,Kay Miller,Mark Miller,51.0,,10.0,24
+1994,Glastonbury,,,David A. Hayes,Grant Cooksley,52.0,,11.0,24
+1994,Oppressor,,,Greg Mance,David Taggart,50.0,,12.0,24
+1994,Major Decision,,,Graeme Rogerson,Kevin Moses,48.5,,13.0,24
+1994,Gossips,,,Bart Cummings,Darren Beadman,51.5,,14.0,24
+1994,Our Pompeii,,,George Hanlon,Jimmy Cassidy,56.0,,15.0,24
+1994,Pindi,,,Colin Anderson,Peter Knuckey,48.5,,16.0,24
+1994,Sweet Glory,,,Barry Bennett,Peter Shepherd,48.5,,17.0,24
+1994,Coachwood,,,Lee Freedman,Shane Dye,49.0,,18.0,24
+1994,Air Seattle,,,Clarry Connors,Rod Griffiths,55.5,,19.0,24
+1994,River Verdon,,,David Hill,John Marshall,57.0,,20.0,24
+1994,Toll Bell,,,Mick Price,Peter Mertens,50.0,,21.0,24
+1994,Cliveden Gail,,,Dermot Weld,William Carson,49.0,,22.0,24
+1994,Quick Ransom,,,Mark Johnston,Brent Thomson,53.0,,23.0,24
+1994,Gold Sovereign,,,Kerry Parker,Craig Carmody,51.5,,24.0,24
+1995,Doriemus,,,Lee Freedman,Damien Oliver,54.5,,1.0,21
+1995,Nothin' Leica Dane,,,Gai Waterhouse,Shane Dye,47.5,,2.0,21
+1995,Vintage Crop,,,Dermot Weld,Michael Kinane,59.0,,3.0,21
+1995,Quick Ransom,,,Lee Freedman,Mick Dittman,52.0,,4.0,21
+1995,Coachwood,,,Lee Freedman,Brian York,50.0,,5.0,21
+1995,Beaux Art,,,D A Edwards,David Taggart,50.0,,6.0,21
+1995,Storm,,,Lee Freedman,Greg Hall,51.0,,7.0,21
+1995,All In Fun,,,John Wheeler,Shane Scriven,55.5,,8.0,21
+1995,Dupain,,,A R Bell,Stephen Baster,48.0,,9.0,21
+1995,Bullwinkle,,,Michael Kent,Frankie Dettori,53.0,,10.0,21
+1995,Count Chivas,,,Don Sellwood,Rod Griffiths,53.0,,11.0,21
+1995,Few Are Chosen,,,Gai Waterhouse,Larry Cassidy,51.5,,12.0,21
+1995,Yes Indeed,,,R A Crowley,Jock Caddigan,51.5,,13.0,21
+1995,Electronic,,,Gai Waterhouse,Glen Boss,48.5,,14.0,21
+1995,Jeune,,,Peter Hayes,Wayne Harris,59.0,,15.0,21
+1995,The Phantom Chance,,,John Wheeler,Robert Vance,57.0,,16.0,21
+1995,Double Trigger,,,Mrs S Johnston,Jason Weaver,60.5,,17.0,21
+1995,Double Take,,,Royce Dowling,John Didham,52.0,,18.0,21
+1995,Daacha,,,John F. Meagher,Brett Prebble,53.0,,19.0,21
+1995,Sir Kingi,,,Noel Eales,Peter Hutchinson,52.0,,20.0,21
+1995,Stony Bay,,,Gai Waterhouse,Darren Beadman,54.0,,21.0,21
+1996,Saintly,,,Bart Cummings,Darren Beadman,55.5,,1.0,22
+1996,Count Chivas,,,Lee Freedman,Steven King,57.0,,2.0,22
+1996,Skybeau,,,L J Smith,Jason Holder,50.0,,3.0,22
+1996,Senator,,,J L Tims,Lance O'Sullivan,53.0,,4.0,22
+1996,Nothin' Leica Dane,,,Gai Waterhouse,Shane Dye,55.0,,5.0,22
+1996,Doriemus,,,Lee Freedman,Damien Oliver,58.0,,6.0,22
+1996,Grey Shot,,,I A Balding,Pat Eddery,55.0,,7.0,22
+1996,Sapio,,,Sylvia Kay,John Walker,54.0,,8.0,22
+1996,Alcove,,,Tom Hughes (Junior),Brian York,50.0,,9.0,22
+1996,Cheviot,,,Cliff Brown,Damien Browne,50.5,,10.0,22
+1996,The Bandette,,,John Wheeler,Noel Harris,51.0,,11.0,22
+1996,Arctic Scent,,,J W Mason,Brent Stanley,51.5,,12.0,22
+1996,Istidaad,,,Peter C Hayes,Greg Hall,53.5,,13.0,22
+1996,Circles Of Gold,,,Brian Smith,Brett Prebble,50.5,,14.0,22
+1996,Oscar Schindler,,,K Prendergast,Michael Kinane,56.5,,15.0,22
+1996,Centico,,,John Sadler,Andrew Payne,48.5,,16.0,22
+1996,The Phantom Chance,,,John Wheeler,Patrick Payne,53.5,,17.0,22
+1996,Super Slew,,,Clarry Connors,Mick Dittman,51.5,,18.0,22
+1996,Few Are Chosen,,,Gai Waterhouse,Darren Gauci,50.5,,19.0,22
+1996,Court Of Honour,,,P W Chapple-Hyam,Simon Marshall,56.5,,20.0,22
+1996,My Kiwi Gold,,,Bart Cummings,John Marshall,49.5,,21.0,22
+1996,Beaux Art,,,D A Edwards,Jason Hustwitt,52.0,,22.0,22
+1997,Might and Power,,,Jack Denham,Jim Cassidy,,,1.0,22
+1997,Doriemus,,,Lee Freedman,Greg Hall,,,2.0,22
+1997,Markham,,,Cliff Brown,Mick Dittman,,,3.0,22
+1997,Harbour Dues,,,Lady Anne Herries,R Cochrane,,,4.0,22
+1997,Linesman,,,Gai Waterhouse,Larry Cassidy,,,5.0,22
+1997,Arabian Story,,,Lord Huntingdon,Frankie Dettori,,,6.0,22
+1997,Skybeau,,,L Smith,Dwayne Dunn,,,7.0,22
+1997,Ebony Grosve,,,Graeme Rogerson,Shane Dye,,,8.0,22
+1997,Sapio,,,Sylvia Kay,Danny Nikolic,,,9.0,22
+1997,Grandmaster,,,Bart Cummings,L Beasley,,,10.0,22
+1997,Court Of Honour,,,Peter Hayes,Brent Thomson,,,11.0,22
+1997,Magnet Bay,,,D Frye,Chris Johnson,,,12.0,22
+1997,Vialli,,,Paul O'Sullivan,B York,,,13.0,22
+1997,Always Aloof,,,Lee Freedman,Steven King,,,14.0,22
+1997,Scrupulous,,,J Smith,M Carson,,,15.0,22
+1997,Yobro,,,K Roberts,G Cooksley,,,16.0,22
+1997,Sunny Lane,,,Charlie Goggin,B Stanley,,,17.0,22
+1997,Marble Halls,,,Lee Freedman,Damien Oliver,,,18.0,22
+1997,Alfa,,,Bart Cummings,Darren Beadman,,,19.0,22
+1997,Bonsai Pipeline,,,R Thomas,Gary Grylls,,,20.0,22
+1997,Crying Lane,,,A Johnson,Greg Childs,,,21.0,22
+1997,Count Chivas,,,S Morrish,D Brereton,,,22.0,22
+1998,Jezabeel,,,Brian Jenkins,Chris Munce,,,1.0,24
+1998,Champagne,,,Laurie Laxon,Glen Boss,,,2.0,24
+1998,Persian Punch,,,David Elsworth,Richard Quinn,,,3.0,24
+1998,Taufan's Melody,,,Lady Herries,P. Payne,,,4.0,24
+1998,Yorkshire,,,Paul Cole,Danny Nikolic,,,5.0,24
+1998,Tie the Knot,,,Guy Walter,Shane Dye,,,6.0,24
+1998,Faithful Son,,,Saeed bin Suroor,Frankie Dettori,,,7.0,24
+1998,Skybeau,,,L J Smith,Larry Cassidy,,,8.0,24
+1998,Perpetual Check,,,Bart Cummings,Len Beasley,,,9.0,24
+1998,Markham,,,Cliff Brown,Danny Brereton,,,10.0,24
+1998,Darazari,,,Bruce Wallace,Opie Bosson,,,11.0,24
+1998,Sheer Danzig,,,R W Armstrong,Damien Oliver,,,12.0,24
+1998,Yippyio,,,Jack Denham,Jim Cassidy,,,13.0,24
+1998,Joss Sticks,,,Bob Pearse,Rod Quinn,,,14.0,24
+1998,Arena,,,John Hawkes,Corey Brown,,,15.0,24
+1998,The Hind,,,P Hayes,Basil Marcus,,,16.0,24
+1998,Peak of Perfection,,,M Thwaites,J Saimee,,,17.0,24
+1998,Ancient City,,,Cindy Alderson,Brett Prebble,,,18.0,24
+1998,Doriemus,,,Lee Freedman,Greg Hall,,,19.0,24
+1998,Count Chivas,,,Simon Morrish,Rod Griffiths,,,20.0,24
+1998,Aerosmith,,,Peter & Nikki Hurdle,Greg Childs,,,21.0,24
+1998,Gold Guru,,,Leon Macdonald,Brian York,,,22.0,24
+1998,Second Coming,,,Michael Moroney,Eddie Wilkinson,,,23.0,24
+1998,Three Crowns,,,M Thwaites,Simon Price,,,,24
+1999,Rogan Josh,,0.0,Bart Cummings,John Marshall,,,1.0,24
+1999,Central Park,IRE,1.0,Saeed bin Suroor (UAE),Frankie Dettori,,,2.0,24
+1999,Lahar,,0.0,Paul Cave,Corey Brown,,,,24
+1999,Zazabelle,NZ,0.0,Bart Cummings,Eddie Wilkinson,,,,24
+1999,Travelmate,GB,1.0,James Fanshawe (GB),David Harrison,,,5.0,24
+1999,The Warrior,NZ,0.0,Richard Otto (NZ),Gary Grylls,,,6.0,24
+1999,Second Coming,NZ,0.0,Michael Moroney (NZ),Greg Childs,,,7.0,24
+1999,The Hind,NZ,0.0,Peter Hayes,Jim Cassidy,,,8.0,24
+1999,Bohemiath,,0.0,John Sadler,Jason Patton,,,9.0,24
+1999,Brew,NZ,0.0,Michael Moroney (NZ),Lance O'Sullivan,,,10.0,24
+1999,Zabuan,NZ,0.0,Jim Moloney,Sam Hyland,,,11.0,24
+1999,Yavana's Pace,IRE,1.0,Mark Johnston (GB),Richard Hughes,,,12.0,24
+1999,Streak,,0.0,Robert Smerdon,Greg Hall,,,13.0,24
+1999,Tie the Knot,,0.0,Guy Walter,Shane Dye,,,14.0,24
+1999,Figurehead,NZ,0.0,Kay Lane (NZ),Opie Bosson,,,15.0,24
+1999,Skybeau,NZ,0.0,Len Smith,Larry Cassidy,,,16.0,24
+1999,Sky Heights,NZ,0.0,Colin Alderson,Damien Oliver,,,17.0,24
+1999,Lady Elsie,,0.0,Cliff Brown,Lenny Beasley,,,18.0,24
+1999,Laebeel,NZ,0.0,John Sadler,Stephen Baster,,,19.0,24
+1999,Maridpour,IRE,1.0,Michael Moroney (NZ),Steven Arnold,,,20.0,24
+1999,The Message,NZ,0.0,John Ralph (NZ),Aaron Spiteri,,,21.0,24
+1999,Arena,,0.0,John Hawkes,Darren Gauci,,,22.0,24
+1999,Rebbor,NZ,0.0,Bart Cummings,Chris Munce,,,,24
+1999,Able Master,NZ,0.0,Bruce Wallace (NZ),Grant Cooksley,,,,24
+2000,Brew,NZ,0.0,Michael Moroney (NZ),Kerrin McEvoy,,,1.0,24
+2000,Yippyio,,0.0,Allan Denham,Darren Beadman,,,2.0,24
+2000,Second Coming,NZ,0.0,Michael Moroney (NZ),Michael Coleman,,,3.0,24
+2000,Kaapstad Way,NZ,0.0,Chris Wood (NZ),Damien Oliver,,,4.0,24
+2000,Arctic Owl,GB,1.0,James Fanshawe (GB),David Harrison,,,5.0,24
+2000,Freemason,,0.0,John Hawkes,Larry Cassidy,,,6.0,24
+2000,Celestial Show,,0.0,L. Morton,Lenny Beasley,,,7.0,24
+2000,Pasta Express,,0.0,Paul Cave,John Marshall,,,8.0,24
+2000,Skybeau,NZ,0.0,Len Smith,Dwayne Dunn,,,9.0,24
+2000,Hill Of Grace,NZ,0.0,Robert Priscott (NZ),Glen Boss,,,10.0,24
+2000,Diatribe,,0.0,George Hanlon,Jim Cassidy,,,11.0,24
+2000,Citra's Prince,NZ,0.0,Cliff Brown,Craig Williams,,,12.0,24
+2000,The Hind,NZ,0.0,Peter Hayes,Stephen Baster,,,13.0,24
+2000,Maguire,NZ,0.0,John Collins (NZ),Luke Currie,,,14.0,24
+2000,Enzelli,IRE,1.0,John Oxx (IRE),Greg Hall,,,15.0,24
+2000,Bohemiath,,0.0,Robert Smerdon,Darren Gauci,,,16.0,24
+2000,Lightning Arrow,USA,1.0,Saeed bin Suroor (UAE),Frankie Dettori,,,17.0,24
+2000,Our Unicorn,NZ,0.0,Colin Alderson,Matthew Gatt,,,18.0,24
+2000,Mr Nelson,,0.0,Russell Cameron,Jason Patton,,,19.0,24
+2000,Coco Cabana,NZ,0.0,Gai Waterhouse,Chris Munce,,,20.0,24
+2000,Far Cry,IRE,1.0,Martin Pipe (GB),Kevin Darley,,,21.0,24
+2000,Maridpour,IRE,1.0,Michael Moroney (NZ),Greg Childs,,,22.0,24
+2000,Majestic Avenue,,0.0,Tony Noonan,,,,,24
+2000,Pravda,NZ,0.0,Paul O'Sullivan (NZ),,,,,24
+2001,Ethereal,NZ,0.0,Sheila Laxon (NZ),Scott Seamer,,,1.0,24
+2001,Give The Slip,GB,1.0,Saeed bin Suroor (UAE),Richard Hills,,,2.0,24
+2001,Persian Punch,IRE,1.0,David Elsworth (GB),Richard Quinn,,,3.0,24
+2001,Karasi,GB,1.0,David Hall,Glen Boss,,,4.0,24
+2001,Maythehorsebewithu,NZ,0.0,Michael Moroney (NZ),Jason Patton,,,5.0,24
+2001,Rain Gauge,,0.0,George Hanlon,Kerrin McEvoy,,,6.0,24
+2001,Marienbard,IRE,1.0,Saeed bin Suroor (UAE),Frankie Dettori,,,7.0,24
+2001,Sky Heights,NZ,0.0,Colin Alderson,Damien Oliver,,,8.0,24
+2001,Reenact,,0.0,Jack Denham,Larry Cassidy,,,9.0,24
+2001,Prophet's Kiss,,0.0,Ron Quinton,Brian York,,,10.0,24
+2001,Inaflury,NZ,0.0,Cliff Brown,Brett Prebble,,,11.0,24
+2001,Mr Prudent,,0.0,George Hanlon,Craig Williams,,,12.0,24
+2001,Caitano,GB,1.0,Andreas Schutz (GER),Johnny Murtagh,,,13.0,24
+2001,Celestial Show,,0.0,L. Morton,Rhys McLeod,,,14.0,24
+2001,Rum,,0.0,Dean Lawson,Chris Munce,,,15.0,24
+2001,Freemason,,0.0,John Hawkes,Darren Gauci,,,16.0,24
+2001,Spirit Of Westbury,NZ,0.0,Cliff Brown,Shane Dye,,,17.0,24
+2001,Yippyio,,0.0,Allan Denham,Darren Beadman,,,18.0,24
+2001,Big Pat,,0.0,Peter Tulloch,Peter Mertens,,,19.0,24
+2001,Pasta Express,,0.0,Paul Cave,Danny Nikolic,,,,24
+2001,Curata Storm,,0.0,John Hawkes,Greg Childs,,,,24
+2001,Hill Of Grace,NZ,0.0,Robert Priscott (NZ),Corey Brown,,,,24
+2001,Universal Prince,,0.0,Bede Murray,,,,,24
+2001,Kaapstad Way,NZ,0.0,Chris Wood (NZ),,,,,24
+2002,Media Puzzle,USA,1.0,Dermot Weld (IRE),Damien Oliver,,,1.0,24
+2002,Mr. Prudent,,0.0,George Hanlon,Corey Brown,,,2.0,24
+2002,Beekeeper,GB,1.0,Saeed bin Suroor (UAE),Kerrin McEvoy,,,3.0,24
+2002,Vinnie Roe,IRE,1.0,Dermot Weld (IRE),Pat Smullen,,,4.0,24
+2002,Pentastic,,0.0,David Hall,Glen Boss,,,5.0,24
+2002,Distinctly Secret,NZ,0.0,Mark Walker (NZ),Steven King,,,6.0,24
+2002,Jardines Lookout,IRE,1.0,Alan Jarvis (GB),Patrick Payne,,,7.0,24
+2002,Rain Gauge,,0.0,George Hanlon,Greg Childs,,,8.0,24
+2002,Freemason,,0.0,John Hawkes,Darren Gauci,,,9.0,24
+2002,Miss Meliss,NZ,0.0,Bart Cummings,Craig Newitt,,,10.0,24
+2002,County Tyrone,,0.0,Max Lees,Jim Cassidy,,,11.0,24
+2002,Hail,NZ,0.0,Bruce Marsh (NZ),Noel Harris,,,12.0,24
+2002,Thong Classic,,0.0,Pat Carey,Brett Prebble,,,13.0,24
+2002,Prized Gem,NZ,0.0,Murray Baker (NZ),Michael Rodd,,,14.0,24
+2002,Grey Song,,0.0,Tommy Hughes Snr.,Chris Munce,,,15.0,24
+2002,Daliapour,IRE,1.0,Michael Stoute,Michael Kinane,,,16.0,24
+2002,Cyclades,NZ,0.0,Cydne Evans (NZ),Scott Seamer,,,17.0,24
+2002,Pugin,IRE,1.0,Saeed bin Suroor (UAE),Frankie Dettori,,,18.0,24
+2002,Victory Smile,,0.0,Donna Logan (NZ),Darren Beasley,,,19.0,24
+2002,Hatha Anna,IRE,1.0,Saeed bin Suroor (UAE),Richard Hills,,,20.0,24
+2002,Helene Vitality,NZ,0.0,David Hayes,Gerald Mosse,,,21.0,24
+2002,Requiem,,0.0,Tony McEvoy,Craig Williams,,,22.0,24
+2002,Sandmason,GB,1.0,Tony McEvoy,Steven Arnold,,,,24
+2002,Maguire,NZ,0.0,John Collins (NZ),,,,,24
+2003,Makybe Diva,GB,,David Hall,Glen Boss,51.0,14.0,1.0,24
+2003,She's Archie,,,Darren Weir,Scott Seamer,50.0,9.0,2.0,24
+2003,Jardines Lookout,IRE,,Alan Jarvis,Daryll Holland,55.5,11.0,3.0,24
+2003,Pentastic,,,David Hall,Steven Arnold,53.5,1.0,4.0,24
+2003,Zagalia,NZ,,Clarry Connors,Chris Munce,50.0,23.0,5.0,24
+2003,Grey Song,,,Tommy Hughes Snr.,Steven King,51.0,19.0,6.0,24
+2003,Distinctly Secret,NZ,,Mark Walker (NZ),Kerrin McEvoy,52.5,18.0,7.0,24
+2003,Yakama,,,Bevan Laming,Michael Rodd,49.0,2.0,8.0,24
+2003,Hugs Dancer,FR,,James Given (GB),Dean McKeown,52.0,13.0,9.0,24
+2003,Big Pat,,,Robbie Griffiths,Peter Mertens,49.5,17.0,10.0,24
+2003,Frightening,,,Bart Cummings,Shane Dye,50.0,4.0,11.0,24
+2003,Mr Prudent,,,George Hanlon,Damien Oliver,53.0,7.0,12.0,24
+2003,Ain't Seen Nothin',,,Barbara Joseph,Craig Newitt,49.5,15.0,13.0,24
+2003,Tumeric,,,Lee Freedman,Brett Prebble,51.0,16.0,14.0,24
+2003,County Tyrone,,,Kris Lees,Jim Cassidy,53.0,12.0,15.0,24
+2003,Bold Bard,,,Bryce Stanaway,Reece Wheeler,50.0,6.0,16.0,24
+2003,Holy Orders,IRE,,Willie Mullins (IRE),David Condon,53.0,20.0,17.0,24
+2003,Fawaz,,,Graeme Rogerson (NZ),Stephen Baster,49.0,3.0,18.0,24
+2003,Debben,,,Leon MacDonald,Clare Lindop,49.0,5.0,19.0,24
+2003,Piachay,NZ,,David Hall,Matt Pumpa,51.0,21.0,20.0,24
+2003,Millstreet,GB,,Saeed bin Suroor (UAE),Patrick Payne,54.5,22.0,21.0,24
+2003,Schumpeter,,,Peter Moody,Corey Brown,50.5,8.0,22.0,24
+2003,Mamool,IRE,,Saeed bin Suroor (UAE),Frankie Dettori,55.5,10.0,23.0,24
+2003,Mummify,,,Lee Freedman,—,,24.0,,24
+2004,Makybe Diva,GB,,Lee Freedman,Glen Boss,,,1.0,24
+2004,Vinnie Roe,IRE,,Dermot Weld (IRE),Pat Smullen,,,2.0,24
+2004,Zazzman,,,Tony Vasil,Nicholas Ryan,,,3.0,24
+2004,Elvstroem,,,Tony Vasil,Nash Rawiller,,,4.0,24
+2004,Hugs Dancer,FR,,Tony McEvoy,Greg Childs,,,5.0,24
+2004,Distinction,IRE,,Sir Michael Stoute (GB),Darren Beadman,,,6.0,24
+2004,Mamool,IRE,,Saeed bin Suroor (UAE),Frankie Dettori,,,7.0,24
+2004,Catchmeifyoucan,NZ,,Michael Moroney (NZ),Blake Shinn,,,8.0,24
+2004,Razkalla,USA,,Saeed bin Suroor (UAE),Kerrin McEvoy,,,9.0,24
+2004,Strasbourg,,,Bart Cummings,Mark Du Plessis,,,10.0,24
+2004,On A Jeune,,,Peter Montgomerie,Joe Bowditch,,,11.0,24
+2004,Media Puzzle,USA,,Dermot Weld (IRE),Damien Oliver,,,12.0,24
+2004,Grey Song,,,Tommy Hughes Jnr.,Darren Beasley,,,13.0,24
+2004,Roman Arch,,,Mick Whittle,Luke Currie,,,14.0,24
+2004,Upsetthym,NZ,,Karen Fursdon (NZ),Rhys McLeod,,,15.0,24
+2004,Another Warrior,,,Alan Bailey,Jim Byrne,,,16.0,24
+2004,Winning Belle,NZ,,Gai Waterhouse,Chris Munce,,,17.0,24
+2004,Lashed,,,Graeme Rogerson (NZ),Jim Cassidy,,,18.0,24
+2004,Mummify,,,Lee Freedman,Danny Nikolic,,,19.0,24
+2004,Don Raphael,,,Kerry Parker,Scott Seamer,,,20.0,24
+2004,Pacific Dancer,NZ,,Shaun Dwyer,Gary Grylls,,,21.0,24
+2004,Hard To Get,,,Mark Kavanagh,Luke Nolen,,,22.0,24
+2004,Delzao,,,Greg Kavanagh,Steven King,,,23.0,24
+2004,She's Archie,,,Darren Weir,Corey Brown,,,,24
+2005,Makybe Diva,,,Lee Freedman,Glen Boss,,14.0,1.0,24
+2005,Vinnie Roe,,,Dermot Weld (IRE),Pat Smullen,,24.0,8.0,24
+2005,Distinction,,,Michael Stoute (GB),Michael Kinane,,21.0,19.0,24
+2005,Greys Inn,,,Mike De Kock (SAF),Weichong Marwing,,13.0,17.0,24
+2005,Franklins Gardens,,,Mark Tompkins (GB),Darryll Holland,,10.0,,24
+2005,Eye Popper,,,Izumi Shimizu (JPN),Shinji Fujita,,9.0,12.0,24
+2005,Railings,,,John Hawkes,Greg Childs,,5.0,14.0,24
+2005,Xcellent,,,Michael Moroney (NZ),Michael Coleman,,17.0,3.0,24
+2005,Kindjhal,,,David Hayes,Dwayne Dunn,,12.0,9.0,24
+2005,Hugs Dancer,,,David Hayes,Nicholas Ryan,,7.0,21.0,24
+2005,Demerger,,,Danny O'Brien,Blake Shinn,,4.0,13.0,24
+2005,Dizelle,,,John Hawkes,Darren Beadman,,18.0,11.0,24
+2005,Lachlan River,,,John Morrisey,Glen Colless,,3.0,5.0,24
+2005,Portland Singa,,,Neville McBurney,Larry Cassidy,,1.0,6.0,24
+2005,Vouvray,,,Peter Moody,Scott Seamer,,15.0,15.0,24
+2005,On a Jeune,,,Peter Montgomerie,Darren Gauci,,11.0,2.0,24
+2005,Umbula,,,Mick Price,Stephen Baster,,8.0,20.0,24
+2005,Bazelle,,,Paul Jenkins (NZ),Rhys McLeod,,22.0,22.0,24
+2005,Envoy,,,Ken Kelso (NZ),Peter Mertens,,2.0,7.0,24
+2005,Rizon,,,Cliff Brown,Jay Ford,,16.0,10.0,24
+2005,Strasbourg,,,Bart Cummings,Luke Nolen,,6.0,18.0,24
+2005,Leica Falcon,,,Richard Freyer,Kerrin McEvoy,,20.0,4.0,24
+2005,Mr Celebrity,,,Gai Waterhouse,Danny Beasley,,19.0,23.0,24
+2005,Kamsky,,,Bart Cummings,Craig Williams,,23.0,16.0,24
+2006,Yeats,,,Aidan O'Brien (IRE),Kieren Fallon,59.0,4.0,7.0,23
+2006,Delta Blues,JPN,,K Sumii (JPN),Yasunari Iwata,56.0,10.0,1.0,23
+2006,Railings,,,John Hawkes,Darren Beadman,55.5,2.0,12.0,23
+2006,Tawqeet,,,David A. Hayes,Dwayne Dunn,55.5,8.0,19.0,23
+2006,Geordieland,,,Jamie Osborne (GB),Frankie Dettori,54.0,9.0,18.0,23
+2006,Headturner,,,John Hawkes,Greg Childs,54.0,18.0,13.0,23
+2006,Short Pause,,,D Hayes,N Callow,53.5,16.0,14.0,23
+2006,Activation,,,Graeme Rogerson,Michael Rodd,53.0,21.0,8.0,23
+2006,Land 'N Stars,,,J Poulton (GB),J Egan,53.0,6.0,5.0,23
+2006,Mahtoum,,,Kim Waugh,Corey Brown,53.0,7.0,6.0,23
+2006,On a Jeune,,,P Montgomerie,Darren Gauci,53.0,14.0,20.0,23
+2006,Pop Rock,,,K Sumii (JPN),Damien Oliver,53.0,11.0,2.0,23
+2006,Zipping,,,Graeme Rogerson,Glen Boss,52.5,19.0,4.0,23
+2006,Dizelle,,,J Hawkes,Blake Shinn,52.0,20.0,17.0,23
+2006,Ice Chariot,,,R Maund,J Byrne,52.0,1.0,22.0,23
+2006,Kerry O'Reilly,,,Jim Gibbs (NZ),Cameron Lammas,52.0,5.0,11.0,23
+2006,Zabeat,NZ,,Donna Logan (NZ),Oliver Doleuze,52.0,15.0,23.0,23
+2006,Art Success,,,J Collins,A Pattillo,51.5,12.0,16.0,23
+2006,Demerger,,,Danny O'Brien,Stephen Baster,51.0,22.0,21.0,23
+2006,Glistening,,,Luca Cumani (GB),Scott Seamer,51.0,23.0,10.0,23
+2006,Mandela,,,Richard Yuill (NZ),Craig Williams,51.0,13.0,9.0,23
+2006,Dolphin Jo,,,T and K O'Sullivan,A Spiteri,50.0,17.0,15.0,23
+2006,Maybe Better,,,Brian Mayfield-Smith,Chris Munce,50.0,3.0,3.0,23
+2007,Tawqeet,USA,,David Hayes,Dwayne Dunn,57.0,3.0,14.0,24
+2007,Blue Monday,GB,,David Hayes,Nash Rawiller,56.0,14.0,7.0,24
+2007,Blutigeroo,,,Colin Little,Luke Nolen,55.5,12.0,19.0,24
+2007,Gallic,NZ,,Graeme Rogerson,Stephen Arnold,55.5,24.0,,24
+2007,Railings,,,Roger James,Greg Childs,55.5,18.0,20.0,24
+2007,Efficient,NZ,,Graeme Rogerson,Michael Rodd,54.5,10.0,1.0,24
+2007,Maybe Better,,,Brian Mayfield-Smith,Corey Brown,54.0,7.0,,24
+2007,Tungsten Strike,USA,,Amanda Perrett,Darryll Holland,54.0,2.0,21.0,24
+2007,Zipping,,,Graeme Rogerson,Danny Nikolic,54.0,22.0,4.0,24
+2007,Black Tom,,,David A. Hayes,P A Hall,53.5,21.0,17.0,24
+2007,Master O'Reilly,NZ,,Danny O'Brien,Vlad Duric,53.5,17.0,8.0,24
+2007,Purple Moon,IRE,,Luca Cumani,Damien Oliver,53.5,15.0,2.0,24
+2007,Lazer Sharp,,,David A. Hayes,Blake Shinn,52.5,16.0,10.0,24
+2007,On a Jeune,,,Andrew J Payne,Kerrin McEvoy,52.5,4.0,6.0,24
+2007,Scenic Shot,,,Daniel Morton,Mark Zahra,52.5,19.0,16.0,24
+2007,Sarrera,,,Michael Moroney,Sebastian Murphy,52.0,23.0,18.0,24
+2007,Sculptor,NZ,,Peter Mckenzie,Lisa Cropp,52.0,8.0,9.0,24
+2007,Dolphin Jo,,,Terry & Karina O'Sullivan,Claire Lindop,51.5,1.0,5.0,24
+2007,Douro Valley,,,Danny O'Brien,James Winks,51.5,13.0,11.0,24
+2007,Sirmione,,,Bart Cummings,Peter Mertens,51.5,20.0,12.0,24
+2007,The Fuzz,NZ,,David A. Hayes,Craig Williams,51.5,11.0,,24
+2007,Eskimo Queen,NZ,,Michael Moroney,Craig Newitt,51.0,5.0,15.0,24
+2007,Princess Coup,,,Mark Walker,Noel Harris,51.0,9.0,13.0,24
+2007,Mahler,GB,,Aidan O'Brien,Stephen Baster,50.5,6.0,3.0,24
+2008,Septimus,,,Aidan O'Brien,Johnny Murtagh,58.5,10.0,18.0,24
+2008,Master O'Reilly,,,Danny O'Brien,Vlad Duric,55.0,6.0,4.0,24
+2008,Honolulu,,,Aidan O'Brien,Colm O'Donoghue,54.5,24.0,21.0,24
+2008,C’est La Guerre,,,John Sadler,Brett Prebble,54.0,5.0,3.0,24
+2008,Nom Du Jeu,,,Murray Baker,J Lloyd,54.0,1.0,8.0,24
+2008,Yellowstone,,,Jane Chapple-Hyam,J F Egan,54.0,,,24
+2008,Zipping,,,John Sadler,Danny Nikolic,54.0,16.0,9.0,24
+2008,Mad Rush,,,Luca Cumani,Damien Oliver,53.5,4.0,7.0,24
+2008,Ice Chariot,,,Ron Maund,Michael Rodd,53.0,22.0,11.0,24
+2008,Viewed,,,Bart Cummings,Blake Shinn,53.0,9.0,1.0,24
+2008,Littorio,,,Nigel Blackiston,Steven King,52.5,17.0,13.0,24
+2008,Bauer,,,Luca Cumani,Corey Brown,52.0,13.0,2.0,24
+2008,Boundless,,,Stephen Mckee,Greg Childs,52.0,20.0,15.0,24
+2008,Gallopin,,,Danny O'Brien,James Winks,52.0,21.0,,24
+2008,Guyno,,,Lou Luciani,Craig Newitt,52.0,8.0,12.0,24
+2008,Zarita,,,Pat Hyland,Dwayne Dunn,52.0,,,24
+2008,Newport,,,Paul Perry,Chris Symons,51.5,15.0,10.0,24
+2008,Profound Beauty,,,Dermot Weld,Glen Boss,51.5,2.0,5.0,24
+2008,Red Lord,,,Anthony Cummings,Nicholas Hall,51.5,14.0,16.0,24
+2008,Varevees,,,Richard Gibson,Craig Williams,51.5,23.0,14.0,24
+2008,Prize Lady,,,Graeme Sanders,Mark Sweeney,51.0,18.0,17.0,24
+2008,Alessandro Volta,,,Aidan O'Brien,W M Lordan,50.5,11.0,20.0,24
+2008,Barbaricus,,,Danny O'Brien,Stephen Baster,50.5,3.0,19.0,24
+2008,Moatize,,,Bart Cummings,Ms Claire Lindop,50.0,19.0,6.0,24
+2009,Viewed,,0.0,Bart Cummings,Brad Rawiller,58.0,9.0,7.0,24
+2009,C'est La Guerre,NZ,0.0,John Sadler,Nicholas Hall,55.5,7.0,8.0,24
+2009,Fiumicino,NZ,0.0,"M, W & J Hawkes",Steven King,55.5,24.0,22.0,24
+2009,Master O'Reilly,NZ,0.0,Danny O'Brien,Vlad Duric,55.0,16.0,4.0,24
+2009,Mourilyan,IRE,1.0,Herman Brown ( RSA ),Glyn Schofield,54.5,14.0,3.0,24
+2009,Roman Emperor,NZ,0.0,Bart Cummings,Hugh Bowman,54.0,15.0,21.0,24
+2009,Ista Kareem,NZ,0.0,Colin Little,Luke Nolen,53.5,23.0,15.0,24
+2009,Crime Scene,IRE,1.0,Saeed bin Suroor ( UAE ),Kerrin McEvoy,53.0,11.0,2.0,24
+2009,Munsef,GB,1.0,Ian Williams (GB),Zac Purton,53.0,5.0,12.0,24
+2009,Zavite,NZ,0.0,Anthony Cummings,Mark Zahra,53.0,3.0,19.0,24
+2009,Alcopop,,0.0,Jake Stephens,Dom Tournuer,52.5,12.0,6.0,24
+2009,Harris Tweed,NZ,0.0,Murray & Bjorn Baker,Craig Newitt,52.5,20.0,5.0,24
+2009,Kibbutz,NZ,0.0,Jarrod McLean,Chris Symons,52.5,8.0,9.0,24
+2009,Newport,,0.0,Paul Perry,Peter Wells,52.5,18.0,10.0,24
+2009,Warringah,GB,1.0,Chris Waller,Damien Oliver,52.5,8.0,23.0,24
+2009,Gallions Reach,NZ,0.0,Richard Yuill (NZ),Dwayne Dunn,52.0,6.0,13.0,24
+2009,Spin Around,,0.0,Steven Cooper (NZ),Mark Du Plessis,52.0,4.0,20.0,24
+2009,Basaltico,IRE,1.0,Luca Cumani (GB),Danny Nikolic,51.5,10.0,18.0,24
+2009,Capecover,NZ,0.0,Alexander R Fieldes (NZ),Noel Harris,51.5,19.0,17.0,24
+2009,Daffodil,NZ,0.0,Kevin Gray (NZ),Chris Munce,51.5,21.0,11.0,24
+2009,Shocking,,0.0,Mark Kavanagh,Corey Brown,51.0,22.0,1.0,24
+2009,Allez Wonder,,0.0,Bart Cummings,Michelle Payne,50.5,13.0,16.0,24
+2009,Changingoftheguard,IRE,1.0,David A. Hayes,Glen Boss,50.5,1.0,,24
+2009,Leica Ding,,0.0,Darren Weir,Craig Williams,50.5,2.0,14.0,24
+2010,Shocking,,0.0,Mark Kavanagh,Michael Rodd,57.0,24.0,18.0,24
+2010,Campanologist,USA,1.0,Saeed bin Suroor (UAE),Kerrin McEvoy,56.0,19.0,16.0,24
+2010,So You Think,NZ,0.0,Bart Cummings,Steven Arnold,56.0,3.0,3.0,24
+2010,Zipping,,0.0,Robert Hickmott,Nicholas Hall,55.5,16.0,4.0,24
+2010,Illustrious Blue,GB,1.0,William J Knight (GB),Glen Boss,55.0,9.0,9.0,24
+2010,Mr Medici,IRE,1.0,Peter Ho (HK),Darren Beadman,55.0,5.0,10.0,24
+2010,Shoot Out,,0.0,John Wallace,Corey Brown,55.0,17.0,13.0,24
+2010,Americain,USA,1.0,Alain de Royer-Dupré (FR),Gérald Mossé,54.5,12.0,1.0,24
+2010,Tokai Trick,JPN,1.0,Kenji Nonaka (JPN),Shinji Fujita,54.5,4.0,12.0,24
+2010,Buccellati,GB,1.0,Tony Noonan,Steven King,54.0,21.0,20.0,24
+2010,Descarado,NZ,0.0,Gai Waterhouse,Nash Rawiller,54.0,1.0,9998.0,24
+2010,Harris Tweed,NZ,0.0,Murray & Bjorn Baker,Brad Rawiller,54.0,13.0,5.0,24
+2010,Manighar,FR,1.0,Luca Cumani (GB),Damien Oliver,54.0,20.0,7.0,24
+2010,Master O'Reilly,NZ,0.0,Danny O'Brien,Vlad Duric,54.0,18.0,15.0,24
+2010,Monaco Consul,NZ,0.0,Michael Moroney,Craig Williams,54.0,14.0,14.0,24
+2010,Profound Beauty,IRE,1.0,Dermot K Weld (IRE),Pat Smullen,54.0,22.0,17.0,24
+2010,Zavite,NZ,0.0,Anthony Cummings,Michael Walker,54.0,7.0,22.0,24
+2010,Bauer,IRE,1.0,Luca Cumani (GB),Chris Munce,53.5,2.0,9999.0,24
+2010,Holberg,UAE,1.0,Saeed bin Suroor (UAE),Frankie Dettori,53.5,10.0,6.0,24
+2010,Precedence,NZ,0.0,Bart Cummings,J M Winks,53.5,15.0,8.0,24
+2010,Red Ruler,NZ,0.0,John Sargent (NZ),Mark Du Plessis,53.5,8.0,19.0,24
+2010,Linton,,0.0,Robert Hickmott,Brett Prebble,52.0,23.0,21.0,24
+2010,Once Were Wild,,0.0,Gai Waterhouse,Jim Cassidy,51.5,11.0,11.0,24
+2010,Maluckyday,NZ,0.0,"Michael, Wayne and John Hawkes",Luke Nolen,51.0,6.0,2.0,24
+2011,Americain,,,Alain de Royer-Dupré (France),Gérald Mossé,58.0,15.0,4.0,24
+2011,Jukebox Jury,,,Mark Johnston (UK),Neil Callan,57.0,6.0,20.0,24
+2011,Dunaden,,,Mikel Delzangles (France),Christophe Lemaire,54.5,13.0,1.0,24
+2011,Drunken Sailor,,,Luca Cumani (UK),Dwayne Dunn,54.0,8.0,12.0,24
+2011,Glass Harmonium,,,Michael Moroney,Lisa Cropp,54.0,23.0,22.0,24
+2011,Manighar,,,Luca Cumani (UK),Damien Oliver,54.0,21.0,5.0,24
+2011,Unusual Suspect,,,Michael Kent,Brad Rawiller,54.0,7.0,9.0,24
+2011,Fox Hunt,,,Mark Johnston (UK),Silvestre de Sousa,53.5,19.0,7.0,24
+2011,Lucas Cranach,,,Anthony Freedman,Corey Brown,53.5,11.0,3.0,24
+2011,Mourayan,,,Robert Hickmott,Hugh Bowman,53.5,14.0,9999.0,24
+2011,Precedence,,,Bart Cummings,Darren Beadman,53.5,2.0,11.0,24
+2011,Red Cadeaux,,,Ed Dunlop (UK),Michael Rodd,53.5,16.0,2.0,24
+2011,Hawk Island,,,Chris Waller,Glyn Schofield,53.0,18.0,18.0,24
+2011,Illo,,,Bart Cummings,Jim Cassidy,53.0,1.0,19.0,24
+2011,Lost in the Moment,,,Saeed Bin Suroor (UAE),William Buick,53.0,3.0,6.0,24
+2011,Modun,,,Saeed Bin Suroor (UAE),Kerrin McEvoy,53.0,5.0,23.0,24
+2011,At First Sight,,,Robert Hickmott,Steven King,52.5,10.0,10.0,24
+2011,Moyenne Corniche,,,Brian Ellison (UK),Brett Prebble,52.0,17.0,15.0,24
+2011,Saptapadi,,,Brian Ellison (UK),Chris Symons,52.0,22.0,16.0,24
+2011,Shamrocker,,,Danny O'Brien,Luke Nolen,52.0,24.0,21.0,24
+2011,The Verminator,,,Chris Waller,Craig Newitt,52.0,4.0,13.0,24
+2011,Tullamore,,,Gai Waterhouse,Chris Munce,52.0,12.0,14.0,24
+2011,Niwot,,,"Michael, Wayne & John Hawkes",Dean Yendall,51.0,9.0,8.0,24
+2011,Older Than Time,,,Gai Waterhouse,Tim Clark,51.0,20.0,17.0,24
+2012,Dunaden,IRE,1.0,Mikel Delzangles (FR),Craig Williams,59.0,16.0,14.0,24
+2012,Americain,USA,1.0,Alain de Royer-Dupré (FR),Damien Oliver,58.0,12.0,11.0,24
+2012,Jakkalberry,IRE,1.0,Marco Botti (UK),Colm O'Donoghue (IRE),55.5,19.0,3.0,24
+2012,Red Cadeaux,GB,1.0,Ed Dunlop (UK),Michael Rodd,55.5,18.0,8.0,24
+2012,Winchester,USA,1.0,John Sadler,Jamie Mott,55.5,22.0,17.0,24
+2012,Voila Ici,IRE,1.0,Peter Moody,Vlad Duric,55.0,13.0,13.0,24
+2012,Cavalryman,GB,1.0,Saeed bin Suroor (UAE),Frankie Dettori (ITA),54.0,6.0,12.0,24
+2012,Mount Athos,IRE,1.0,Luca Cumani (UK),Ryan Moore (UK),54.0,8.0,5.0,24
+2012,Sanagas,GER,1.0,Bart Cummings,Nicholas Hall,54.0,4.0,18.0,24
+2012,Ethiopia,,0.0,Pat Carey,Rhys McLeod,54.0,14.0,24.0,24
+2012,Fiorente,IRE,1.0,Gai Waterhouse,James McDonald (NZ),53.5,2.0,2.0,24
+2012,Galileo's Choice,IRE,1.0,Dermot Weld (IRE),Pat Smullen (IRE),53.5,11.0,20.0,24
+2012,Glencadam Gold,IRE,1.0,Gai Waterhouse,Tommy Berry,53.5,7.0,6.0,24
+2012,Green Moon,IRE,1.0,Robert Hickmott,Brett Prebble,53.5,5.0,1.0,24
+2012,Maluckyday,NZ,0.0,"Michael, Wayne & John Hawkes",Jim Cassidy (NZ),53.5,9.0,19.0,24
+2012,Mourayan,IRE,1.0,Robert Hickmott,Hugh Bowman,53.5,3.0,7.0,24
+2012,My Quest For Peace,IRE,1.0,Luca Cumani (UK),Corey Brown,53.5,1.0,10.0,24
+2012,Niwot,,0.0,"Michael, Wayne & John Hawkes",Dwayne Dunn,53.5,15.0,15.0,24
+2012,Tac De Boistron,FR,1.0,Michael Kent,Olivier Doleuze (FR),53.5,21.0,23.0,24
+2012,Lights of Heaven,NZ,0.0,Peter Moody,Luke Nolen,53.0,17.0,16.0,24
+2012,Precedence,NZ,0.0,Bart Cummings,Blake Shinn,53.0,20.0,9.0,24
+2012,Unusual Suspect,USA,1.0,Michael Kent,Glyn Schofield,53.0,23.0,21.0,24
+2012,Zabeelionaire,NZ,0.0,Leon Corstens,Craig Newitt,52.0,24.0,22.0,24
+2012,Kelinni,IRE,1.0,Chris Waller,Glen Boss,51.0,10.0,4.0,24
+2013,Dunaden,IRE,,Mikel Delzangles (FR),Jamie Spencer,58.5,1.0,11.0,24
+2013,Green Moon,,,Robert Hickmott,Brett Prebble,57.5,10.0,21.0,24
+2013,Red Cadeaux,,,Ed Dunlop (ENG),Gérald Mossé,56.5,23.0,2.0,24
+2013,Sea Moon,,,Robert Hickmott,Steven Arnold,56.5,7.0,13.0,24
+2013,Brown Panther,,,Tom Dascombe (ENG),Richard Kingscote,55.0,6.0,8.0,24
+2013,Fiorente,,,Gai Waterhouse,Damien Oliver,55.0,5.0,1.0,24
+2013,Foreteller,,,Chris Waller,Craig Newitt,55.0,15.0,17.0,24
+2013,Dandino,,,Marco Botti (ENG),Ryan Moore,54.5,4.0,5.0,24
+2013,Ethiopia,,,Pat Carey,Rhys McLeod,54.5,14.0,7.0,24
+2013,Fawkner,,,Robert Hickmott,Nick Hall,54.5,8.0,6.0,24
+2013,Mourayan,,,Robert Hickmott,Brenton Avdulla,54.5,19.0,15.0,24
+2013,Seville,,,Robert Hickmott,Hugh Bowman,54.5,9.0,12.0,24
+2013,Super Cool,,,Mark Kavanagh,Corey Brown,54.5,13.0,9.0,24
+2013,Masked Marvel,,,Robert Hickmott,Michael Rodd,54.0,2.0,18.0,24
+2013,Mount Athos,,,Luca Cumani (ENG),Craig Williams,54.0,22.0,3.0,24
+2013,Royal Empire,,,Saeed bin Suroor (ENG),Kerrin McEvoy,54.0,11.0,14.0,24
+2013,Voleuse De Coeurs,,,Michael Moroney,James McDonald,54.0,21.0,10.0,24
+2013,Hawkspur,,,Chris Waller,Jim Cassidy,53.5,18.0,20.0,24
+2013,Simenon,,,Willie Mullins (IRE),Richard Hughes,53.5,12.0,4.0,24
+2013,Ibicenco,,,Peter Moody,Luke Nolen,53.0,17.0,16.0,24
+2013,Verema,,,Alain de Royer-Dupré (FRA),Christophe Lemaire,53.0,3.0,24.0,24
+2013,Dear Demi,,,Clarry Conners,Chris Munce,51.0,16.0,19.0,24
+2013,Tres Blue,,,Gai Waterhouse,Tommy Berry,51.0,20.0,22.0,24
+2013,Ruscello,,,Ed Walker (ENG),Chad Schofield,50.0,24.0,23.0,24
+2014,Admire Rakti,Japan,1.0,Tomoyuki Umeda,Zac Purton,58.5,8.0,22.0,24
+2014,Cavalryman,United Kingdom,1.0,Saeed bin Suroor,Craig Williams,57.0,3.0,,24
+2014,Fawkner,Australia,0.0,Robert Hickmott,Nicholas Hall,57.0,9.0,10.0,24
+2014,Red Cadeaux,United Kingdom,1.0,Ed Dunlop,Gérald Mossé,57.0,15.0,2.0,24
+2014,Protectionist,Germany,1.0,Andreas Wöhler,Ryan Moore,56.5,11.0,1.0,24
+2014,Sea Moon,United Kingdom,1.0,Robert Hickmott,Tommy Berry,56.5,18.0,,24
+2014,Seismos,Republic of Ireland,0.0,Marco Botti,Craig Newitt,56.0,1.0,9.0,24
+2014,Junoob,United Kingdom,1.0,Chris Waller,Hugh Bowman,55.5,7.0,18.0,24
+2014,Royal Diamond,Republic of Ireland,0.0,Johnny Murtagh,Steven Arnold,55.5,6.0,20.0,24
+2014,Gatewood,United Kingdom,1.0,John Gosden,William Buick,55.0,21.0,12.0,24
+2014,Mutual Regard,Republic of Ireland,0.0,Johnny Murtagh,Damien Oliver,55.0,12.0,14.0,24
+2014,Who Shot Thebarman,New Zealand,0.0,Chris Waller,Glen Boss,55.0,13.0,3.0,24
+2014,Willing Foe,United States,1.0,Saeed bin Suroor,James McDonald,55.0,17.0,5.0,24
+2014,My Ambivalent,Republic of Ireland,0.0,Roger Varian,Andrea Atzeni,54.5,4.0,17.0,24
+2014,Precedence,New Zealand,0.0,Bart Cummings & James Cummings,Michael Rodd,54.5,19.0,6.0,24
+2014,Brambles,New Zealand,0.0,Peter Moody,Luke Nolen,54.0,20.0,15.0,24
+2014,Mr O'Ceirin,New Zealand,0.0,Michael Moroney,Chad Schofield,54.0,18.0,21.0,24
+2014,Au Revoir,Republic of Ireland,0.0,André Fabre,Glyn Schofield,53.5,22.0,8.0,24
+2014,Lidari,France,1.0,Peter Moody,Ben Melham,53.5,10.0,19.0,24
+2014,Opinion,Republic of Ireland,0.0,Chris Waller,Tye Angland,53.5,14.0,11.0,24
+2014,Araldo,United Kingdom,1.0,Michael Moroney,Dwayne Dunn,53.0,23.0,7.0,24
+2014,Lucia Valentina,New Zealand,0.0,Kris Lees,Kerrin McEvoy,53.0,2.0,13.0,24
+2014,Unchain My Heart,Australia,0.0,David Hayes & Tom Dabernig,Dean Yendall,51.5,5.0,16.0,24
+2014,Signoff,Republic of Ireland,0.0,Darren Weir,João Moreira,51.0,16.0,4.0,24
+2015,Snow Sky,United Kingdom,1.0,Sir Michael Stoute,Ryan Moore,58.0,16.0,23.0,24
+2015,Criterion,New Zealand,0.0,David Hayes & Tom Dabernig,Michael Walker,57.5,4.0,3.0,24
+2015,Fame Game,Japan,1.0,Yoshitada Munakata,Zac Purton,57.0,12.0,13.0,24
+2015,Our Ivanhowe,Germany,1.0,Lee Freedman & Anthony Freedman,Ben Melham,56.0,22.0,10.0,24
+2015,Big Orange,United Kingdom,1.0,Michael Bell,Jamie Spencer,55.5,23.0,5.0,24
+2015,Hartnell,United Kingdom,1.0,John O'Shea,James McDonald,55.5,17.0,15.0,24
+2015,Hokko Brave,Japan,1.0,Yasutoshi Matsunaga,Craig Williams,55.5,20.0,17.0,24
+2015,Max Dynamite,France,1.0,Willie Mullins,Frankie Dettori,55.0,2.0,2.0,24
+2015,Red Cadeaux,United Kingdom,1.0,Ed Dunlop,Gérald Mossé,55.0,8.0,,24
+2015,Trip To Paris,Republic of Ireland,0.0,Ed Dunlop,Tommy Berry,55.0,14.0,4.0,24
+2015,Who Shot Thebarman,New Zealand,0.0,Chris Waller,Blake Shinn,54.5,6.0,11.0,24
+2015,Sky Hunter,United Kingdom,1.0,Saeed bin Suroor,William Buick,54.0,7.0,22.0,24
+2015,The Offer,Republic of Ireland,0.0,Gai Waterhouse,Damien Oliver,54.0,13.0,8.0,24
+2015,Grand Marshall,United Kingdom,1.0,Chris Waller,Jim Cassidy,53.5,15.0,21.0,24
+2015,Preferment,New Zealand,0.0,Chris Waller,Hugh Bowman,53.5,11.0,20.0,24
+2015,Quest For More,Republic of Ireland,0.0,Roger Charlton,Damian Lane,53.5,21.0,9.0,24
+2015,Almoonquith,United States,1.0,David Hayes & Tom Dabernig,Dwayne Dunn,53.0,10.0,18.0,24
+2015,Kingfisher,Republic of Ireland,0.0,Aidan O'Brien,Colm O'Donoghue,53.0,9.0,19.0,24
+2015,Prince of Penzance,New Zealand,0.0,Darren Weir,Michelle Payne,53.0,1.0,1.0,24
+2015,Bondi Beach,Republic of Ireland,0.0,Aidan O'Brien,Brett Prebble,52.5,18.0,16.0,24
+2015,Sertorius,Australia,0.0,Jamie Edwards,Craig Newitt,52.5,5.0,12.0,24
+2015,The United States,Republic of Ireland,0.0,Robert Hickmott,João Moreira,52.5,3.0,14.0,24
+2015,Excess Knowledge,United Kingdom,1.0,Gai Waterhouse,Kerrin McEvoy,51.0,24.0,7.0,24
+2015,Gust Of Wind,New Zealand,0.0,John Sargent,Chad Schofield,51.0,19.0,6.0,24
+2016,Almandin,GER,1.0,Robert Hickmott,Kerrin McEvoy,52.0,,1.0,24
+2016,Heartbreak City,FR,1.0,Tony Martin,João Moreira,54.0,,2.0,24
+2016,Hartnell,GB,1.0,John O'Shea,James McDonald,56.0,,3.0,24
+2016,Qewy,IRE,1.0,Charlie Appleby,Craig Williams,51.5,,4.0,24
+2016,Who Shot TheBarman,NZ,0.0,Chris Waller,Hugh Bowman,56.0,,5.0,24
+2016,Almoonquith,USA,1.0,"David , Ben Hayes & T Dabernig",Michael Walker,54.5,,6.0,24
+2016,Beautiful Romance,GB,1.0,Saeed bin Suroor,Damian Lane,52.5,,7.0,24
+2016,Exospheric,GB,1.0,Lee & Anthony Freedman,Damien Oliver,56.0,,8.0,24
+2016,Pentathlon,NZ,0.0,John Wheeler,Mark Du Plessis,51.5,,9.0,24
+2016,Big Orange,GB,1.0,Michael Bell,Jamie Spencer,57.0,,10.0,24
+2016,Grand Marshal,GB,1.0,Chris Waller,Ben Melham,54.5,,11.0,24
+2016,Oceanographer,GB,1.0,Charlie Appleby,Chad Scholfield,52.0,,12.0,24
+2016,Bondi Beach,,0.0,Aidan O'Brien,Ryan Moore,56.0,,13.0,24
+2016,Grey Lion,IRE,1.0,Matt Cumani,Glen Boss,52.0,,14.0,24
+2016,Jameka,,0.0,Ciaron Maher,Nicholas Hall,54.5,,15.0,24
+2016,Excess Knowledge,GB,1.0,Gai Waterhouse & Adrian Bott,Vlad Duric,53.5,,16.0,24
+2016,Our Ivanhowe,GER,1.0,Lee & Anthony Freedman,Dwayne Dunn,57.0,,17.0,24
+2016,Sir John Hawkwood,IRE,1.0,John P Thompson,Blake Spriggs,54.0,,18.0,24
+2016,Assign,,0.0,Robert Hickmott,Katelyn Mallyon,52.0,,19.0,24
+2016,Gallante,IRE,1.0,Robert Hickmott,Blake Shinn,54.5,,20.0,24
+2016,Secret Number,GB,1.0,Saeed bin Suroor,Stephen Baster,52.0,,21.0,24
+2016,Wicklow Brave,GB,1.0,Willie Mullins,Frankie Dettori,56.0,,22.0,24
+2016,Curren Mirotic,JPN,1.0,Osamu Hirata,Tommy Berry,56.5,,23.0,24
+2016,Rose Of Virginia,,0.0,Lee & Shannon Hope,Ben Thompson (a),51.0,,24.0,24
+2017,Hartnell,,,James Cummings,Damian Lane,57.5,12.0,20.0,24
+2017,Almandin,,,Robert Hickmott,Frankie Dettori,56.5,14.0,12.0,24
+2017,Humidor,,,Darren Weir,Blake Shinn,56.0,13.0,19.0,24
+2017,Tiberian,,,Alan Couteil,Olivier Peslier,55.5,23.0,7.0,24
+2017,Marmelo,,,Hughie Morrison,Hugh Bowman,55.0,16.0,9.0,24
+2017,Red Cardinal,,,Andreas Wohler,Kerrin McEvoy,55.0,24.0,11.0,24
+2017,Johannes Vermeer,,,Aidan O'Brien,Ben Melham,54.5,3.0,2.0,24
+2017,Bondi Beach,,,Robert Hickmott,Michael Walker,54.0,1.0,22.0,24
+2017,Max Dynamite,,,Willie Mullins,Zac Purton,54.0,2.0,3.0,24
+2017,Ventura Storm,,,David & B Hayes & T Dabernig,Glen Boss,54.0,6.0,21.0,24
+2017,Who Shot Thebarman,,,Chris Waller,Tommy Berry,54.0,20.0,,24
+2017,Wicklow Brave,,,Willie Mullins,Stephen Baster,54.0,8.0,10.0,24
+2017,Big Duke,,,Darren Weir,Brenton Avdulla,53.5,5.0,4.0,24
+2017,US Army Ranger,,,Joseph O'Brien,Jamie Spencer,53.5,22.0,18.0,24
+2017,Boom Time,,,David & B Hayes & T Dabernig,Cory Parish,53.0,9.0,15.0,24
+2017,Gallante,,,Robert Hickmott,Michael Dee,53.0,18.0,23.0,24
+2017,Libran,,,Chris Waller,Dwayne Dunn,53.0,7.0,8.0,24
+2017,Nakeeta,,,Iain Jardine,Glyn Schofield,53.0,19.0,5.0,24
+2017,Single Gaze,,,Nick Olive,Kathy O’Hara,53.0,11.0,17.0,24
+2017,Wall of Fire,,,Hugo Palmer,Craig Williams,53.0,15.0,16.0,24
+2017,Thomas Hobson,,,Willie Mullins,Ben Allen,52.0,21.0,6.0,24
+2017,Rekindling,,,Joseph O’Brien,Corey Brown,51.5,4.0,1.0,24
+2017,Amelie’s Star,,,Darren Weir,Dean Yendall,51.0,10.0,14.0,24
+2017,Cismontane,,,Gai Waterhouse & Adrian Bott,Beau Mertens,50.0,17.0,13.0,24
+2018,Best Solution,,,Saeed bin Suroor (UAE),Pat Cosgrave,,6.0,8.0,24
+2018,The Cliffsofmoher,,,Aidan O'Brien (Ireland),Ryan Moore,,9.0,,24
+2018,Magic Circle,,,Ian Williams (Great Britain),Corey Brown,,17.0,16.0,24
+2018,Chestnut Coat,,,Yoshito Yahagi (Japan),Yuga Kawada,,4.0,14.0,24
+2018,Muntahaa,,,John Gosden (Great Britain),Jim Crowley,,13.0,9.0,24
+2018,Sound Check,,,Michael Moroney,Jordan Childs,,16.0,18.0,24
+2018,Who Shot Thebarman,,,Chris Waller,Ben Melham,,18.0,17.0,24
+2018,Ace High,,,David Payne,Tye Angland,,22.0,20.0,24
+2018,Marmelo,,,Hughie Morrison (Great Britain),Hugh Bowman,,10.0,2.0,24
+2018,Avilius,,,James Cummings,Glyn Schofield,,11.0,22.0,24
+2018,Yucatán,,,Aidan O'Brien (Ireland),James McDonald,,23.0,11.0,24
+2018,Auvray,,,Richard Freedman,Tommy Berry,,1.0,21.0,24
+2018,Finche,,,Chris Waller,Zac Purton,,15.0,4.0,24
+2018,Red Cardinal,,,Darren Weir,Damien Oliver,,5.0,23.0,24
+2018,Vengeur Masque,,,Michael Moroney,Patrick Moloney,,2.0,15.0,24
+2018,Ventura Storm,,,David Hayes,Mark Zahra,,7.0,10.0,24
+2018,Prince of Arran,,,Charlie Fellowes (Great Britain),Michael Walker,,20.0,3.0,24
+2018,Nakeeta,,,Iain Jardine (Great Britain),Regan Bayliss,,3.0,12.0,24
+2018,Sir Charles Road,,,Lance O'Sullivan (New Zealand),Dwayne Dunn,,14.0,7.0,24
+2018,Zacada,,,Murray Baker (New Zealand),Damian Lane,,24.0,13.0,24
+2018,Runaway,,,Gai Waterhouse,Stephen Baster,,12.0,19.0,24
+2018,Youngstar,,,Chris Waller,Craig Williams,,8.0,6.0,24
+2018,Cross Counter,,,Charlie Appleby (UAE),Kerrin McEvoy,,19.0,1.0,24
+2018,Rostropovich,,,Aidan O'Brien (Ireland),Wayne Lordan,,21.0,5.0,24
+2019,Cross Counter,,,Charlie Appleby (United Arab Emirates),William Buick,57.5,5.0,8.0,24
+2019,Mer De Glace,,,Hisashi Shimizu (Japan),Damian Lane,56.0,2.0,6.0,24
+2019,Master of Reality,,,Joseph O’Brien (Ireland),Frankie Dettori,55.5,1.0,4.0,24
+2019,Mirage Dancer,,,Trent Busuttin & Natalie Young,Ben Melham,55.5,13.0,14.0,24
+2019,Southern France,,,Ciaron Maher -David Eustace,Mark Zahra,55.5,14.0,19.0,24
+2019,Hunting Horn,,,Aidan O'Brien (Ireland),Seamie Heffernan,55.0,11.0,15.0,24
+2019,Latrobe,,,Joseph O’Brien (Ireland),James McDonald,55.0,22.0,18.0,24
+2019,Mustajeer,,,Kris Lees,Damien Oliver,55.0,6.0,23.0,24
+2019,Rostropovich,,,David & Ben Hayes and Tom Dabernig,Dwayne Dunn,55.0,12.0,24.0,24
+2019,Twilight Payment,,,Joseph O’Brien (Ireland),Hugh Bowman,55.0,19.0,11.0,24
+2019,Finche,,,Chris Waller,Kerrin McEvoy,54.0,4.0,7.0,24
+2019,Prince Of Arran,,,Charlie Fellowes (Great Britain),Michael Walker,54.0,8.0,2.0,24
+2019,Raymond Tusk,,,Richard Hannon Jr (Great Britain),Jamie Spencer,54.0,3.0,16.0,24
+2019,Downdraft,,,Joseph O’Brien (Ireland),John Allen,53.5,15.0,22.0,24
+2019,Magic Wand,,,Aidan O'Brien (Ireland),Ryan Moore,53.5,24.0,10.0,24
+2019,Neufbosc,,,David & Ben Hayes and Tom Dabernig,Luke Nolen,53.5,23.0,21.0,24
+2019,Sound,,,Michael Moroney,James Winks,53.5,10.0,12.0,24
+2019,Surprise Baby,,,Paul Preusker,Jordan Childs,53.5,20.0,5.0,24
+2019,Constantinople,,,David & Ben Hayes and Tom Dabernig,João Moreira,52.5,7.0,13.0,24
+2019,II Paradiso,,,Aidan O'Brien (Ireland),Wayne Lordan,52.5,17.0,3.0,24
+2019,Steel Prince,,,Anthony Freedman,Brett Prebble,52.5,16.0,9.0,24
+2019,The Chosen One,,,Murray Baker (New Zealand),Tim Clark,52.0,18.0,17.0,24
+2019,Vow And Declare,,,Danny O’Brien,Craig Williams,52.0,21.0,1.0,24
+2019,Youngstar,,,Chris Waller,Tommy Berry,52.0,9.0,20.0,24
+2020,Anthony Van Dyck,,,Aidan O'Brien,Hugh Bowman,58.5,3.0,,24
+2020,Avilius,,,James Cummings,John Allen,57.0,10.0,22.0,24
+2020,Vow And Declare,,,Danny O'Brien,Jamie Mott,57.0,4.0,18.0,24
+2020,Master of Reality,,,Joseph O'Brien,Ben Melham,56.0,11.0,15.0,24
+2020,Sir Dragonet,,,Ciaron Maher & David Eustace,Glen Boss,55.5,14.0,6.0,24
+2020,Twilight Payment,,,Joseph O'Brien,Jye McNeil,55.5,12.0,1.0,24
+2020,Verry Elleegant,,,Chris Waller,Mark Zahra,55.5,15.0,7.0,24
+2020,Mustajeer,,,Kris Lees,Michael Rodd,55.0,2.0,19.0,24
+2020,Stratum Albion,,,Willie Mullins,Jordan Childs,55.0,9.0,20.0,24
+2020,Dashing Willoughby,,,Andrew Balding,Michael Walker,54.5,19.0,21.0,24
+2020,Finche,,,Chris Waller,James McDonald,54.5,6.0,9.0,24
+2020,Prince of Arran,,,Charlie Fellowes,Jamie Kah,54.5,1.0,3.0,24
+2020,Surprise Baby,,,Paul Preusker,Craig Williams,54.5,7.0,13.0,24
+2020,King of Leogrance,,,Danny O’Brien,Damian Lane,53.5,18.0,,24
+2020,Russian Camelot,,,Danny O'Brien,Damien Oliver,53.5,16.0,8.0,24
+2020,Steel Prince,,,Anthony & Sam Freedman,William Pike,53.5,21.0,16.0,24
+2020,The Chosen One,,,Murray Baker & Andrew Forsman,Daniel Stackhouse,53.5,5.0,4.0,24
+2020,Ashrun,,,Andreas Wohler,Declan Bates,53.0,24.0,10.0,24
+2020,Warning,,,Anthony & Sam Freedman,Luke Currie,53.0,8.0,12.0,24
+2020,Etah James,,,Ciaron Maher & David Eustace,Billy Egan,52.5,22.0,17.0,24
+2020,Tiger Moth,,,Aidan O'Brien,Kerrin McEvoy,52.5,23.0,2.0,24
+2020,Oceanex,,,Mick Price & Michael Kent,Dean Yendall,51.5,17.0,11.0,24
+2020,Miami Bound,,,Danny O'Brien,Daniel Moor,51.0,13.0,14.0,24
+2020,Persan,,,Ciaron Maher & David Eustace,Michael Dee,51.0,20.0,5.0,24
+2021,Twilight Payment,,,Joseph O'Brien,Jye McNeil,58.0,2.0,11.0,24
+2021,Incentivise,,,Peter Moody,Brett Prebble,57.0,15.0,2.0,24
+2021,Spanish Mission,,,Andrew Balding,Craig Williams,57.0,14.0,3.0,24
+2021,Verry Elleegant,,,Chris Waller,James McDonald,57.0,18.0,1.0,24
+2021,Explosive Jack,,,Ciaron Maher & David Eustace,John Allen,54.0,4.0,15.0,24
+2021,The Chosen One,,,Murray Baker & Andrew Forsman,Damian Lane,54.0,5.0,5.0,24
+2021,Delphi,,,Anthony & Sam Freedman,Damien Oliver,53.5,3.0,7.0,24
+2021,Ocean Billy,,,Chris Waller,Damien Thornton,53.5,13.0,23.0,24
+2021,Selino,,,Chris Waller,Ron Stewart,53.5,23.0,8.0,24
+2021,Johnny Get Angry,,,Denis Pagan,Lachlan King,53.0,21.0,21.0,24
+2021,Knights Order,,,Gai Waterhouse & Adrian Bott,Daniel Stackhouse,53.0,9.0,17.0,24
+2021,Persan,,,Ciaron Maher & David Eustace,Luke Currie,53.0,11.0,18.0,24
+2021,Carif,,,Peter & Paul Snowden,Blaike McDougall,52.5,8.0,19.0,24
+2021,Master of Wine,,,"Michael, Wayne & John Hawkes",Fred Kersley,52.5,6.0,16.0,24
+2021,Pondus,,,Robert Hickmott,Rachel King,52.5,1.0,20.0,24
+2021,Grand Promenade,,,Ciaron Maher & David Eustace,Kerrin McEvoy,52.0,20.0,6.0,24
+2021,Miami Bound,,,Danny O’Brien,Patrick Moloney,52.0,16.0,13.0,24
+2021,Port Guillaume,,,Ben & JD Hayes,Harry Coffey,52.0,22.0,22.0,24
+2021,She’s Ideel,,,Bjorn Baker,Craig Newitt,52.0,19.0,10.0,24
+2021,Future Score,,,Matt Cumani,Dean Yendall,51.5,15.0,,24
+2021,Tralee Rose,,,Symon Wilde,Dean Holland,51.0,12.0,9.0,24
+2021,Floating Artist,,,Ciaron Maher & David Eustace,Teo Nugent,50.0,10.0,4.0,24
+2021,Great House,,,Chris Waller,Michael Dee,50.0,7.0,14.0,24
+2021,Sir Lucan,,,Gai Waterhouse & Adrian Bott,Glen Boss,50.0,17.0,12.0,24
+2022,Gold Trip,FR,1.0,Ciaron Maher & David Eustace,Mark Zahra,57.5,14.0,1.0,24
+2022,Duais,,0.0,Edward Cummings,Hugh Bowman,55.5,10.0,18.0,24
+2022,Knights Order,IRE,1.0,Gai Waterhouse & Adrian Bott,Tim Clark,55.5,24.0,9.0,24
+2022,Montefilia,,0.0,David Payne,Jason Collett,55.5,11.0,16.0,24
+2022,Numerian,IRE,1.0,Annabel Neasham,Tommy Berry,55.5,7.0,19.0,24
+2022,Without A Fight,IRE,1.0,Simon & Ed Crisford,William Buick,55.5,18.0,13.0,24
+2022,Camorra,IRE,1.0,Ben & JD Hayes,Ben Melham,55.0,17.0,21.0,24
+2022,Deauville Legend,IRE,1.0,James Ferguson,Kerrin McEvoy,55.0,9.0,4.0,24
+2022,Stockman,NZ,0.0,Joseph Pride,Sam Clipperton,54.0,2.0,8.0,24
+2022,Vow And Declare,,0.0,Danny O’Brien,Blake Shinn,54.0,4.0,10.0,24
+2022,Young Werther,NZ,0.0,Danny O’Brien,Damian Lane,54.0,21.0,15.0,24
+2022,Hoo Ya Mal,GB,1.0,Gai Waterhouse & Adrian Bott,Craig Williams,53.5,15.0,12.0,24
+2022,Serpentine,IRE,1.0,Robert Hickmott,John Allen,53.5,23.0,20.0,24
+2022,Daqiansweet Junior,NZ,0.0,Phillip Stokes,Daniel Moor,53.0,13.0,6.0,24
+2022,Grand Promenade,GB,1.0,Ciaron Maher & David Eustace,Harry Coffey,53.0,1.0,14.0,24
+2022,Arapaho,FR,1.0,Bjorn Baker,Rachel King,52.5,19.0,11.0,24
+2022,Emissary,GB,1.0,Michael Moroney,Patrick Moloney,51.5,3.0,2.0,24
+2022,Lunar Flare,,0.0,Grahame Begg,Michael Dee,51.5,12.0,,24
+2022,Smokin’ Romans,NZ,0.0,Ciaron Maher & David Eustace,Jamie Kah,51.5,16.0,7.0,24
+2022,Tralee Rose,NZ,0.0,Symon Wilde,Dean Yendall,51.5,22.0,17.0,24
+2022,Point Nepean,IRE,1.0,Robert Hickmott,Wayne Lordan,51.0,20.0,,24
+2022,High Emocean,NZ,0.0,Ciaron Maher & David Eustace,Teo Nugent,50.0,8.0,3.0,24
+2022,Interpretation,IRE,1.0,Ciaron Maher & David Eustace,Craig Newitt,50.0,6.0,,24
+2022,Realm Of Flowers,,0.0,Anthony & Sam Freedman,Damien Thornton,50.0,5.0,5.0,24
+2023,Gold Trip,FR,1.0,Ciaron Maher & David Eustace,James McDonald,58.0,2.0,17.0,24
+2023,Alenquer,FR,1.0,Michael Moroney,Damien Oliver,56.5,9.0,21.0,24
+2023,Without A Fight,IRE,1.0,Anthony Freedman & Sam Freedman,Mark Zahra,56.5,10.0,1.0,24
+2023,Breakup,JPN,1.0,Tatsuya Yoshioka,Kohei Matsuyama,55.0,18.0,16.0,24
+2023,Vauban,FR,1.0,Willie Mullins,Ryan Moore,55.0,3.0,14.0,24
+2023,Soulcome,GB,1.0,Chris Waller,João Moreira,53.5,4.0,2.0,24
+2023,Absurde,FR,1.0,Willie Mullins,Zac Purton,53.0,8.0,7.0,24
+2023,Right You Are,,0.0,Ciaron Maher & David Eustace,John Allen,53.0,15.0,,24
+2023,Vow And Declare,,0.0,Danny O'Brien,Billy Egan,53.0,19.0,9.0,24
+2023,Cleveland,IRE,1.0,Kris Lees,Michael Dee,52.0,23.0,,24
+2023,Ashrun,FR,1.0,Ciaron Maher & David Eustace,Kerrin McEvoy,51.5,11.0,4.0,24
+2023,Daqiansweet Junior,NZ,0.0,Phillip Stokes,Daniel Stackhouse,51.5,12.0,5.0,24
+2023,Okita Soushu,IRE,1.0,Joseph O'Brien,Dylan Gibbons,51.5,20.0,11.0,24
+2023,Sheraz,FR,1.0,Chris Waller,Beau Mertens,51.5,22.0,3.0,24
+2023,Lastotchka,FR,1.0,Mick Price & Michael Kent Jnr,Craig Williams,51.0,21.0,13.0,24
+2023,Magical Lagoon,IRE,1.0,Chris Waller,Mark Du Plessis,51.0,7.0,22.0,24
+2023,Military Mission,IRE,1.0,Gai Waterhouse & Adrian Bott,Rachel King,51.0,5.0,10.0,24
+2023,Serpentine,IRE,1.0,Gai Waterhouse & Adrian Bott,Jye McNeil,51.0,1.0,19.0,24
+2023,Virtous Circle,NZ,0.0,Liam Howley,Craig Newitt,51.0,6.0,18.0,24
+2023,More Fellons,IRE,1.0,Chris Waller,Jamie Kah,50.5,24.0,12.0,24
+2023,Future History,GB,1.0,Ciaron Maher & David Eustace,Hollie Doyle,50.0,13.0,15.0,24
+2023,Interpretation,IRE,1.0,Ciaron Maher & David Eustace,Teo Nugent,50.0,17.0,6.0,24
+2023,Kalapour,IRE,1.0,Kris Lees,Zac Lloyd,50.0,14.0,20.0,24
+2023,True Marvel,FR,1.0,Matthew Smith,Ben Thompson,50.0,10.0,8.0,24
+2024,Vauban,FR,1.0,Willie Mullins,William Buick,55.5,11.0,11.0,24
+2024,Buckaroo,GB,1.0,Chris Waller,Joao Moreira,54.5,21.0,9.0,24
+2024,Circle Of Fire,GB,1.0,Ciaron Maher,Mark Zahra,54.5,24.0,6.0,24
+2024,Warp Speed,JPN,1.0,Noboru Takagi,Akira Sugawara,54.5,3.0,2.0,24
+2024,Kovalica,NZ,0.0,Chris Waller,Damian Lane,53.5,17.0,10.0,24
+2024,Sharp 'N' Smart,NZ,0.0,Graeme & Deborah Rogerson,Michael Dee,53.5,15.0,16.0,24
+2024,Just Fine,IRE,1.0,Gai Waterhouse & Adrian Bott,Jye McNeil,53.0,13.0,23.0,24
+2024,Land Legend,FR,1.0,Chris Waller,Zac Purton,53.0,18.0,8.0,24
+2024,Absurde,FR,1.0,Willie Mullins,Kerrin McEvoy,52.5,7.0,5.0,24
+2024,Athabascan,FR,1.0,John O’Shea & Tom Charlton,Zac Lloyd,52.0,2.0,,24
+2024,Knight's Choice,,0.0,John Symons & Sheila Laxon,Robbie Dolan,51.5,6.0,1.0,24
+2024,Okita Soushi,IRE,1.0,Ciaron Maher,Jamie Kah,51.0,10.0,3.0,24
+2024,Onesmoothoperator,USA,1.0,Brian Ellison,Craig Williams,51.0,12.0,12.0,24
+2024,Zardozi,,0.0,James Cummings,Andrea Atzeni,51.0,4.0,4.0,24
+2024,Sea King,GB,1.0,Harry Eustace,Hollie Doyle,50.5,1.0,14.0,24
+2024,Valiant King,GB,1.0,Chris Waller,Craig Newitt,50.5,22.0,13.0,24
+2024,Fancy Man,IRE,1.0,Annabel Neasham & Rob Archibald,Ron Stewart,50.0,19.0,7.0,24
+2024,Interpretation,IRE,1.0,Ciaron Maher,Teo Nugent,50.0,14.0,15.0,24
+2024,Manzoice,,0.0,Chris Waller,Declan Bates,50.0,8.0,19.0,24
+2024,Mostly Cloudy,IRE,1.0,Trent Busuttin & Natalie Young,Karis Teetan,50.0,16.0,18.0,24
+2024,Positivity,NZ,0.0,Andrew Forsman,Winona Costin,50.0,20.0,20.0,24
+2024,Saint George,GB,1.0,Ciaron Maher,Tyler Schiller,50.0,9.0,22.0,24
+2024,The Map,,0.0,Dan Clarken & Oopy MacGillivray,Rachel King,50.0,23.0,21.0,24
+2024,Trust In You,NZ,0.0,Bruce Wallace & Grant Cooksley,Mark Du Plessis,50.0,5.0,17.0,24
+2025,Al Riffa,FR,1.0,Joseph O'Brien,Mark Zahra,59.0,19.0,7.0,24
+2025,Buckaroo,GB,1.0,Chris Waller,Craig Williams,57.0,12.0,24.0,24
+2025,Arapaho,FR,1.0,Bjorn Baker,Rachel King,56.5,15.0,12.0,24
+2025,Vauban,FR,1.0,Gai Waterhouse & Adrian Bott,Blake Shinn,56.5,2.0,6.0,24
+2025,Chevalier Rose,JPN,1.0,Hisashi Shimizu,Damian Lane,55.5,5.0,23.0,24
+2025,Presage Nocturne,IRE,1.0,Alessandro Botti,Stephane Pasquier,55.5,9.0,19.0,24
+2025,Middle Earth,GB,1.0,Ciaron Maher,Ethan Brown,54.5,13.0,3.0,24
+2025,Meydaan,IRE,1.0,Simon & Ed Crisford,James McDonald,54.0,22.0,10.0,24
+2025,Absurde,FR,1.0,Willie Mullins,Kerrin McEvoy,53.5,4.0,8.0,24
+2025,Flatten The Curve,FR,1.0,Henk Grewe,Thore Hammer-Hansen,53.5,17.0,13.0,24
+2025,Land Legend,FR,1.0,Chris Waller,Joao Moreira,53.5,16.0,22.0,24
+2025,Smokin' Romans,NZ,0.0,Ciaron Maher,Ben Melham,53.5,11.0,14.0,24
+2025,Changingoftheguard,IRE,1.0,Kris Lees,Tim Clark,53.0,24.0,9.0,24
+2025,Half Yours,,0.0,Tony & Calvin McEvoy,Jamie Melham,53.0,8.0,1.0,24
+2025,More Felons,IRE,1.0,Chris Waller,Tommy Berry,53.0,23.0,18.0,24
+2025,Onesmoothoperator,USA,1.0,Brian Ellison,Harry Coffey,53.0,6.0,16.0,24
+2025,Furthur,IRE,1.0,Andrew Balding,Michael Dee,52.0,7.0,11.0,24
+2025,Parchment Party,USA,1.0,William Mott,John Velazquez,52.0,3.0,20.0,24
+2025,Athabascan,FR,1.0,John O'Shea & Tom Charlton,Declan Bates,51.5,1.0,21.0,24
+2025,Goodie Two Shoes,IRE,1.0,Joseph O'Brien,Wayne Lordan,51.5,20.0,2.0,24
+2025,River Of Stars,IRE,1.0,Chris Waller,Beau Mertens,51.5,14.0,4.0,24
+2025,Royal Supremacy,IRE,1.0,Ciaron Maher,Robbie Dolan,51.0,21.0,15.0,24
+2025,Torranzino,NZ,0.0,Paul Preusker,Celine Gaudray,51.0,18.0,5.0,24
+2025,Valiant King,GB,1.0,Chris Waller,Jye McNeil,51.0,10.0,16.0,24
+2026,Sons And Lovers,GB,1.0,Joseph O’Brien,Dylan Browne McMonagle,57.5,3.0,,24
+2026,Trustyourinstinct,IRE,1.0,Joseph O’Brien,James McDonald,57.0,18.0,,24
+2026,Knight's Choice,,0.0,John Symons & Sheila Laxon,Robbie Dolan,56.5,2.0,,24
+2026,Middle Earth,GB,1.0,Ciaron Maher,Mark Zahra,56.5,1.0,,24
+2026,Vauban,FR,1.0,Gai Waterhouse & Adrian Bott,Jordan Childs,56.5,22.0,,24
+2026,Enfjaat,IRE,1.0,Roger Varian,Ray Dawson,56.0,8.0,,24
+2026,Royal Supremacy,IRE,1.0,Ciaron Maher,Ben Allen,56.0,21.0,,24
+2026,Wine Dark Sea,,0.0,Harry Charlton,Damian Lane,56.0,23.0,,24
+2026,Asterix,NZ,0.0,Chris Waller,Jye McNeil,55.0,6.0,,24
+2026,Goodie Two Shoes,IRE,1.0,Joseph O’Brien,Wayne Lordan,55.0,19.0,,24
+2026,Juja Kibo,IRE,1.0,Ciaron Maher,Sam Clipperton,55.0,14.0,,24
+2026,Hopewell Rock,IRE,1.0,George Boghey,Zac Lloyd,54.5,15.0,,24
+2026,Onesmoothoperator,USA,1.0,Tim Fitzsimmons,Declan Bates,54.5,13.0,,24
+2026,Soul Of Spain,IRE,1.0,Chris Waller,Tommy Berry,54.5,5.0,,24
+2026,Zahrann,IRE,1.0,Ciaron Maher,Ben Melham,54.5,11.0,,24
+2026,So You Are,,0.0,Bjorn Baker,Rachel King,54.0,7.0,,24
+2026,Future History,GB,1.0,Gregory Hickman,Jamie Melham,53.5,12.0,,24
+2026,James J Braddock,IRE,1.0,Joseph O’Brien,Craig Williams,53.5,24.0,,24
+2026,Kizlyar,IRE,1.0,Joseph O’Brien,Beau Mertens,53.5,20.0,,24
+2026,Point Of Law,GB,1.0,Ciaron Maher,Ethan Brown,53.0,9.0,,24
+2026,Strictly Business,,0.0,Thomas Carberry,Dean Yendall,53.0,4.0,,24
+2026,Mr Monaco,GB,1.0,Ciaron Maher,Jabez Johnstone,52.5,16.0,,24
+2026,Zakouma,,0.0,Grahame Begg,William Pike,52.0,10.0,,24
+2026,Shockletz,NZ,0.0,Ciaron Maher,Harry Coffey,51.0,17.0,,24
